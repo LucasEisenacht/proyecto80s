@@ -123,7 +123,7 @@ ul a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    filter: opacity(5%);
+    filter: opacity(25%);
 }
 .carta__dos:hover{
     transition: all 2.5s;
@@ -156,7 +156,7 @@ ul a {
     justify-content: inherit;
     align-items: center;
     background-size: cover;
-    filter: opacity(5%);
+    filter: opacity(25%);
 }
 .carta__cuatro:hover{
     transition: all 2.5s;
@@ -191,7 +191,7 @@ ul a {
     justify-content: inherit;
     align-items: center;
     background-size: auto;
-    filter: opacity(5%);
+    filter: opacity(25%);
 }
 .carta__seis:hover{
     transition: all 2.5s;
