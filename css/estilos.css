@@ -70,7 +70,8 @@ ul a {
     margin: 1.563rem;
     grid-template-areas: "uno dos"
                         "tres cuatro"
-                        "cinco seis";
+                        "cinco seis"
+                        "siete ocho";
 }
 .titulo{
     text-align: center;
@@ -198,7 +199,40 @@ ul a {
     transform: scale(1.02);
     filter: opacity(100%);
 }
-
+.carta__siete{
+    width: 1fr;
+    grid-area: siete;
+    border-radius: 0.938rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.205)), url(../recursos/out-run-2.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    margin-bottom: 0.938rem;
+    justify-content: inherit;
+    align-items: center;
+    background-size: auto;
+    filter: opacity(25%);
+}
+.carta__ocho:hover{
+    transition: all 2.5s;
+    transform: scale(1.02);
+    filter: opacity(100%);
+}
+.carta__ocho{
+    width: 1fr;
+    border-radius: 0.938rem;
+    background-image:  url(../recursos/out-run.jpg);
+    background-size: cover;
+    background-position-y: -11.875rem;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    grid-area: ocho;
+}
+.carta__siete:hover{
+    transition: all 1.4s;
+    filter: grayscale(0%);
+    transform: scale(1.01);
+}
 h1{
     font-size: 5rem;
     font-style: italic;
@@ -213,6 +247,13 @@ h2{
     font-family: 'Inconsolata', monospace;
 }
 h3{
+    margin-bottom: 3.125rem;
+    font-size: 5rem;
+    font-family: 'Bebas Neue';
+    font-family: 'Inconsolata', monospace;
+    -webkit-text-stroke: 0.001rem rgba(141, 1, 1, 0.514);
+}
+h4{
     margin-bottom: 3.125rem;
     font-size: 5rem;
     font-family: 'Bebas Neue';
@@ -322,7 +363,25 @@ h3{
                                 "tres"
                                 "cuatro"
                                 "cinco"
-                                "seis";
+                                "seis"
+                                "siete"
+                                "ocho";
+    }
+    .carta__ocho:hover{
+        transition: all 2.5s;
+        transform: scale(1.02);
+        filter: opacity(100%);
+    }
+    .carta__ocho{
+        width: 1fr;
+        border-radius: 0.938rem;
+        background-image:  url(../recursos/out-run.jpg);
+        background-size: center;
+        background-position-x: 0rem;
+        background-position-y: 0.1rem;
+        background-repeat: no-repeat;
+        filter: grayscale(100%);
+        grid-area: ocho;
     }
     .carta{
         justify-content: center;
@@ -372,7 +431,25 @@ h3{
                             "tres"
                             "cuatro"
                             "cinco"
-                            "seis";
+                            "seis"
+                            "siete"
+                            "ocho";
+    }
+    .carta__ocho:hover{
+        transition: all 2.5s;
+        transform: scale(1.02);
+        filter: opacity(100%);
+    }
+    .carta__ocho{
+        width: 1fr;
+        border-radius: 0.938rem;
+        background-image:  url(../recursos/out-run.jpg);
+        background-size: center;
+        background-position-x: 0rem;
+        background-position-y: 0.1rem;
+        background-repeat: no-repeat;
+        filter: grayscale(100%);
+        grid-area: ocho;
     }
     .titulo{
         text-align: center;
