@@ -14,6 +14,7 @@ ul {
     font-family: 'Bebas Neue', cursive;
     font-family: 'Inconsolata', monospace;
     font-style: italic;
+    padding-left: 0rem;
 }
 li{
     padding-left: 0.625rem;
@@ -496,110 +497,6 @@ h4{
     font-size: 1.25rem;
     font-family:monospace;
 }
-.cazafantasmas{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 25%;
-    background-color: rgba(255, 231, 231, 0.048);
-    padding: 1.875rem;
-    margin: 1.875rem;
-    border: 0.188rem solid rgba(255, 0, 0, 0.123);
-    border-radius: 0.625rem;
-    align-items: center;
-}
-.cazafantasmas__foto{
-    width: 18.75rem;
-    border-radius: 0.625rem;
-    border: solid rgba(255, 0, 0, 0.123);
-}
-
-.topgun{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 25%;
-    background-color: rgba(255, 231, 231, 0.048);
-    padding: 1.875rem;
-    margin: 1.875rem;
-    border: 0.188rem solid rgba(255, 0, 0, 0.123);
-    border-radius: 0.625rem;
-    align-items: center;
-}
-.topgun__foto{
-    width: 18.75rem;
-    border-radius: 0.625rem;
-    border: solid rgba(255, 0, 0, 0.123);
-}
-.beetlejuice{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 25%;
-    background-color: rgba(255, 231, 231, 0.048);
-    padding: 1.875rem;
-    margin: 1.875rem;
-    border: 0.188rem solid rgba(255, 0, 0, 0.123);
-    border-radius: 0.625rem;
-    align-items: center;
-}
-.beetlejuice__foto{
-    width: 18.75rem;
-    border-radius: 0.625rem;
-    border: solid rgba(255, 0, 0, 0.123);
-}
-
-.volveralfuturo{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 25%;
-    background-color: rgba(255, 231, 231, 0.048);
-    padding: 1.875rem;
-    margin: 1.875rem;
-    border: 0.188rem solid rgba(255, 0, 0, 0.123);
-    border-radius: 0.625rem;
-    align-items: center;
-}
-.volveralfuturo__foto{
-    width: 18.75rem;
-    border-radius: 0.625rem;
-    border: solid rgba(255, 0, 0, 0.123);
-}
-.ET{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 25%;
-    background-color: rgba(255, 231, 231, 0.048);
-    padding: 1.875rem;
-    margin: 1.875rem;
-    border: 0.188rem solid rgba(255, 0, 0, 0.123);
-    border-radius: 0.625rem;
-    align-items: center;
-}
-.ET__foto{
-    width: 18.75rem;
-    border-radius: 0.625rem;
-    border: solid rgba(255, 0, 0, 0.123);
-}
-.scarface{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 25%;
-    background-color: rgba(255, 231, 231, 0.048);
-    padding: 1.875rem;
-    margin: 1.875rem;
-    border: 0.188rem solid rgba(255, 0, 0, 0.123);
-    border-radius: 0.625rem;
-    align-items: center;
-}
-.scarface__foto{
-    width: 18.75rem;
-    border-radius: 0.625rem;
-    border: solid rgba(255, 0, 0, 0.123);
-}
 @media (min-width: 320px) and (max-width: 540px) {
     .cine{
         width: 100vw;
@@ -617,92 +514,6 @@ h4{
         flex-wrap: wrap;
         flex-direction: column;
     }
-    .cazafantasmas{
-        width: 50vw;
-        padding: 1.875rem;
-        margin: 1.875rem;
-        border: 0.188rem solid rgba(255, 0, 0, 0.123);
-        border-radius: 0.625rem;
-        align-items: inherit;
-    }
-    .cazafantasmas__foto{
-        width: 12rem;
-        border-radius: 0.625rem;
-        border: solid rgba(255, 0, 0, 0.123);
-    }
-    .peliculas__titulo{
-        font-size: 1rem;
-        margin: 1rem;
-    }
-    .peliculas__descripcion{
-        font-size: 1rem;
-    }
-    .topgun{
-        width: 50vw;
-        padding: 1.875rem;
-        margin: 1.875rem;
-        border: 0.188rem solid rgba(255, 0, 0, 0.123);
-        border-radius: 0.625rem;
-        align-items: center;
-    }
-    .topgun__foto{
-        width: 12rem;
-        border-radius: 0.625rem;
-        border: solid rgba(255, 0, 0, 0.123);
-    }
-    .beetlejuice{
-        width: 50vw;
-        padding: 1.875rem;
-        margin: 1.875rem;
-        border: 0.188rem solid rgba(255, 0, 0, 0.123);
-        border-radius: 0.625rem;
-        align-items: center;
-    }
-    .beetlejuice__foto{
-        width: 12rem;
-        border-radius: 0.625rem;
-        border: solid rgba(255, 0, 0, 0.123);
-    }
-    
-    .volveralfuturo{
-        width: 50vw;
-        padding: 1.875rem;
-        margin: 1.875rem;
-        border: 0.188rem solid rgba(255, 0, 0, 0.123);
-        border-radius: 0.625rem;
-        align-items: center;
-    }
-    .volveralfuturo__foto{
-        width: 12rem;
-        border-radius: 0.625rem;
-        border: solid rgba(255, 0, 0, 0.123);
-    }
-    .ET{
-        width: 50vw;
-        padding: 1.875rem;
-        margin: 1.875rem;
-        border: 0.188rem solid rgba(255, 0, 0, 0.123);
-        border-radius: 0.625rem;
-        align-items: center;
-    }
-    .ET__foto{
-        width: 12rem;
-        border-radius: 0.625rem;
-        border: solid rgba(255, 0, 0, 0.123);
-    }
-    .scarface{
-        width: 50vw;
-        padding: 1.875rem;
-        margin: 1.875rem;
-        border: 0.188rem solid rgba(255, 0, 0, 0.123);
-        border-radius: 0.625rem;
-        align-items: center;
-    }
-    .scarface__foto{
-        width: 12rem;
-        border-radius: 0.625rem;
-        border: solid rgba(255, 0, 0, 0.123);
-}
 }
 @media (min-width: 541px) and (max-width: 720px){
     .cine {
@@ -1466,4 +1277,8 @@ footer {
         background-position-x: 0.5rem;
         background-attachment:scroll;
     }
+}
+.orden{
+    display: flex;
+    flex-direction: row;
 }
