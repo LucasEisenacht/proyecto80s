@@ -330,15 +330,15 @@ h4{
 
 @media (min-width: 320px) and (max-width: 540px) {
     .index{
-        width: 100vw;
+        width: 97vw;
         background-size: 100%; 
-        background-position-x: 0.1rem;
+        background-position-x: 0rem;
         background-position-y: 3rem;
-        padding-bottom: 0.75rem;
+        padding-bottom: 0rem;
     }
     .gridindex{
         display: grid;
-        grid-template-rows: 0.1fr 1fr 0.01fr;
+        grid-template-rows: 0.1fr 0.1fr 0.01fr;
         grid-template-areas:"index "
                             "mainindex "
                             "footerindex ";
@@ -346,10 +346,6 @@ h4{
     .titulo{
         font-size: 1.5rem;
         width: 98vw;
-    }
-    .navegacion__logo img{
-        width: 7rem;
-        padding-right: 3rem;
     }
     li{
         width: 7rem;
@@ -398,6 +394,10 @@ h4{
     }
     li:hover{
         padding-left: 2.125rem;
+    }
+    .walkman__cuatro{
+        background-position: start;
+        font-size: 1rem;
     }
 }
 
@@ -652,8 +652,9 @@ h4{
     border-left-color: aquamarine;
     border-right-color: aquamarine;
     border-radius: 0.813rem;
-    text-shadow: 0.25rem 0.438rem 0.313 rgba(252, 153, 255, 0.3);
+    text-shadow: 0.25rem 0.438rem 0.313rem rgba(252, 153, 255, 0.3);
 }
+
 .main__moda{
     display: grid;
     gap: 0.938rem;
@@ -665,7 +666,6 @@ h4{
                         "once once once";
     margin: 0.938rem;
 }
-
 .ropa{
     grid-area: uno;
     background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
@@ -904,6 +904,7 @@ h4{
     grid-area: once;
     margin-left: 25.938rem;
 }
+
 
 @media (min-width: 320px) and (max-width: 540px) {
     .moda{
@@ -1181,47 +1182,29 @@ h4{
     background-image: url(../recursos/contacto.jpg);
     width: 100%;
     padding-bottom: 6.25rem;
-    background-position-y: -12.5rem;
+    background-position-y: -22rem;
     background-size:cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-.formulario{
-    text-align: center;
-    padding: 0.938rem;
-    margin: 3.125rem;
-    width: 30%;
-    height: 60%;
-    justify-content: center;
-    background-color: rgba(250, 97, 255, 0.116);
-    border-radius: 0.938rem;
-    align-self: center;
-}
-.formulario div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: azure;
-    font-size: 1.25rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.maincontacto{
-    display: flex;
-    grid-area: main;
-    flex-direction: row;
-    justify-content: space-around;
-}
 .goku{
     display: flex;
-    height: 56.25rem;
+    height: 40rem;
 }
 
 .grid__contacto{
     display: grid;
     grid-template-areas: "contacto contacto contacto contacto"
-                "main main main main"
+                "main__formulario main__formulario main__formulario main__formulario"
                 "footer footer footer footer"
+}
+.main__formulario{
+    grid-area: main__formulario;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 3rem;
 }
 .footercontacto{
     grid-area: footer;
@@ -1236,7 +1219,7 @@ h4{
         background-position-x: -9.5rem;
         background-attachment:scroll;
     }
-    .formulario{
+/*     .formulario{
         padding: 0.938rem;
         margin: 1rem;
         margin-right: 150px;
@@ -1246,20 +1229,20 @@ h4{
     .maincontacto{
         display: flex;
         flex-direction: column;
-    }
+    } */
     .goku{
-        width: 50px;
+        width: 2rem;
     }
     .goku img{
-        width: 300px;
-        height: 500px;
+        width: 2rem;
+        height: 8rem;
     }
     
     .grid__contacto{
         display: grid;
-        grid-template-rows: 0.4fr 0.01fr 0.1fr 0.1fr;
+        grid-template-rows: 0.4fr 0.01fr 0.1fr;
         grid-template-areas: "contacto "
-                            "main "
+                            "main__formulario"
                             "footer "
     }
 }
@@ -1273,6 +1256,10 @@ h4{
         background-position-x: 0.5rem;
         background-attachment:scroll;
     }
+    .goku img{
+        width: 8rem;
+        height: 18rem;
+    }
 }
 .orden{
     display: flex;
@@ -1281,4 +1268,5 @@ h4{
 .carousel{
     display: flex;
     width: 80%;
+    margin: 1rem;
 }
