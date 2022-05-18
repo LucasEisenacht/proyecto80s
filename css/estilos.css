@@ -525,8 +525,12 @@ h4{
         flex-direction: column;
     }
     .logopeliculas{
-        width: 4rem;
-        height: 4rem;
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+    .peliculas__titulo{
+        font-size: 2rem;
+        margin: 0rem;
     }
 }
 @media (min-width: 541px) and (max-width: 720px){
