@@ -36,7 +36,7 @@ ul a {
     text-decoration: none;
     font-size: 2.5rem;
     background: linear-gradient(rgba(0, 158, 250, 0.849),rgba(255, 255, 255, 0.733));
-    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;  
     font-weight: 500;
     text-shadow: 0px 0.438rem 0.313rem rgba(0, 0, 0, 0.671);
@@ -81,7 +81,7 @@ ul a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style:oblique;
     background: linear-gradient(rgba(255, 89, 213, 0.678),rgba(115, 246, 255, 0.664));
-    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;  
     border-style:dotted;
     border-color: aqua;
@@ -661,7 +661,7 @@ h4{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style:oblique;
     background: linear-gradient(rgba(255, 89, 213, 0.678),rgba(115, 246, 255, 0.664));
-    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;  
     border-style:dotted;
     border-color: aqua;
@@ -792,7 +792,7 @@ h4{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style:oblique;
     background: linear-gradient(rgba(255, 89, 213, 0.678),rgba(115, 246, 255, 0.664));
-    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;  
     border-style:dotted;
     border-color: aqua;
@@ -907,7 +907,7 @@ h4{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style:oblique;
     background: linear-gradient(rgba(255, 89, 213, 0.678),rgba(115, 246, 255, 0.664));
-    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;  
     border-style:dotted;
     border-color: aqua;
