@@ -1,3 +1,408 @@
+/* -------------TITULOS----------- */
+.titulomodados {
+  grid-area: cinco;
+  text-align: center;
+  font-size: 9.375rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  background: linear-gradient(rgba(255, 89, 213, 0.678), rgba(115, 246, 255, 0.664));
+  -webkit-background-clip: text;
+  color: transparent;
+  border-style: dotted;
+  border-color: aqua;
+  border-radius: 1rem;
+  border-top-color: pink;
+  border-bottom-color: violet;
+  border-left-color: aquamarine;
+  border-right-color: aquamarine;
+  border-radius: 1rem;
+  text-shadow: 0.25rem 0.438rem 0.313rem rgba(252, 153, 255, 0.3); }
+
+.titulomodatres {
+  grid-area: nueve;
+  text-align: center;
+  font-size: 9.375rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  background: linear-gradient(rgba(255, 89, 213, 0.678), rgba(115, 246, 255, 0.664));
+  -webkit-background-clip: text;
+  color: transparent;
+  border-style: dotted;
+  border-color: aqua;
+  border-radius: 1rem;
+  border-top-color: pink;
+  border-bottom-color: violet;
+  border-left-color: aquamarine;
+  border-right-color: aquamarine;
+  border-radius: 1rem;
+  text-shadow: 0.25rem 0.438rem 0.313rem rgba(252, 153, 255, 0.3); }
+
+.titulo {
+  text-align: center;
+  font-size: 9.375rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  background: linear-gradient(rgba(255, 89, 213, 0.678), rgba(115, 246, 255, 0.664));
+  -webkit-background-clip: text;
+  color: transparent;
+  border-style: dotted;
+  border-color: aqua;
+  border-radius: 1rem;
+  border-top-color: pink;
+  border-bottom-color: violet;
+  border-left-color: aquamarine;
+  border-right-color: aquamarine;
+  border-radius: 1rem;
+  text-shadow: 0.25rem 0.438rem 0.313rem rgba(252, 153, 255, 0.3); }
+
+.titulomodacine {
+  width: 99vw;
+  border-radius: 1rem;
+  font-size: 9.375rem;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  background: linear-gradient(rgba(255, 89, 213, 0.678), rgba(115, 246, 255, 0.664));
+  -webkit-background-clip: text;
+  color: transparent;
+  border-style: dotted;
+  border-color: aqua;
+  border-radius: 1rem;
+  border-top-color: pink;
+  border-bottom-color: violet;
+  border-left-color: aquamarine;
+  border-right-color: aquamarine;
+  border-radius: 1rem;
+  text-shadow: 0.25rem 0.438rem 0.313rem rgba(252, 153, 255, 0.3); }
+
+.titulomoda {
+  grid-area: cuatro;
+  text-align: center;
+  font-size: 9.375rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  background: linear-gradient(rgba(255, 89, 213, 0.678), rgba(115, 246, 255, 0.664));
+  -webkit-background-clip: text;
+  color: transparent;
+  border-style: dotted;
+  border-color: aqua;
+  border-radius: 1rem;
+  border-top-color: pink;
+  border-bottom-color: violet;
+  border-left-color: aquamarine;
+  border-right-color: aquamarine;
+  border-radius: 1rem;
+  text-shadow: 0.25rem 0.438rem 0.313rem rgba(252, 153, 255, 0.3); }
+
+/* ---------------INDEX------------------ */
+@media (min-width: 320px) and (max-width: 540px) {
+  .index {
+    width: 97vw;
+    background-size: 100%;
+    background-position-x: 0rem;
+    background-position-y: 3rem;
+    padding-bottom: 0rem; }
+  .gridindex {
+    display: grid;
+    grid-template-rows: 0.1fr 0.1fr 0.01fr;
+    grid-template-areas: "index " "mainindex " "footerindex "; }
+  .carta__cinco {
+    margin-right: 5rem;
+    background-position-y: -0.875rem; }
+  .carta__ocho {
+    background-size: center;
+    background-position-y: 0rem;
+    background-repeat: no-repeat; }
+  .titulo {
+    font-size: 1.5rem;
+    width: 98vw; }
+  li {
+    width: 7rem; }
+    li:hover {
+      padding-left: 2.125rem; }
+  ul a {
+    font-size: 1rem; }
+  .flex {
+    width: 85vw;
+    grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis" "siete" "ocho"; }
+    .flex .carta {
+      justify-content: center; }
+      .flex .carta__ocho {
+        width: 1fr;
+        border-radius: 1rem;
+        background-image: url(../recursos/out-run.jpg);
+        background-size: center;
+        background-position-x: 0rem;
+        background-position-y: 0.1rem;
+        background-repeat: no-repeat;
+        filter: grayscale(100%);
+        grid-area: ocho; }
+        .flex .carta__ocho:hover {
+          transition: all 2.5s;
+          transform: scale(1.02);
+          filter: opacity(100%); }
+  .flexx {
+    grid-template-areas: "uno" "dos" "tres" "cuatro"; }
+    .flexx .walkman {
+      width: 80vw; }
+      .flexx .walkman__cuatro {
+        background-position: start;
+        font-size: 1rem; } }
+
+@media (min-width: 541px) and (max-width: 720px) {
+  ul {
+    font-size: 0.25rem; }
+  .gridindex {
+    display: grid;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas: "index index " "mainindex mainindex " "footerindex footerindex "; }
+  .index {
+    grid-area: index;
+    width: 98vw;
+    padding-bottom: 3.75rem;
+    background-position-y: 0rem;
+    background-size: contain;
+    background-attachment: scroll;
+    background-size: center; }
+  .flex {
+    display: grid;
+    gap: 3.125rem;
+    margin: 1.563rem;
+    grid-template-areas: "uno " "dos" "tres" "cuatro" "cinco" "seis" "siete" "ocho"; }
+    .flex .carta__ocho {
+      width: 1fr;
+      border-radius: 1rem;
+      background-image: url(../recursos/out-run.jpg);
+      background-size: center;
+      background-position-x: 0rem;
+      background-position-y: 0.1rem;
+      background-repeat: no-repeat;
+      filter: grayscale(100%);
+      grid-area: ocho; }
+      .flex .carta__ocho:hover {
+        transition: all 2.5s;
+        transform: scale(1.02);
+        filter: opacity(100%); }
+  .titulo {
+    text-align: center;
+    font-size: 2.375rem; } }
+
+/* --------------CINE------------- */
+@media (min-width: 320px) and (max-width: 540px) {
+  .cine {
+    width: 100vw;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: 5rem;
+    padding-bottom: 1.5rem; }
+  .titulomodacine {
+    width: 91vw;
+    font-size: 2rem; }
+  .logopeliculas {
+    width: 3.8rem;
+    height: 3.8rem; }
+  .peliculas__titulo {
+    font-size: 2.1rem;
+    margin: 0rem; } }
+
+@media (min-width: 541px) and (max-width: 720px) {
+  .cine {
+    width: 98vw;
+    padding-bottom: 3.75rem;
+    background-position-y: 1.25rem;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    justify-content: space-between; }
+  .peliculas__titulo {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2.188rem;
+    color: antiquewhite;
+    margin: 0.938rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  .peliculas__titulo {
+    font-size: 1rem;
+    margin: 1rem; }
+  .peliculas__descripcion {
+    font-size: 1rem; } }
+
+/* ------------MODA------------- */
+@media (min-width: 320px) and (max-width: 540px) {
+  .moda {
+    width: 100vw;
+    padding-bottom: 0.25rem;
+    background-position-y: 0rem;
+    background-position-x: 0rem;
+    background-size: center;
+    background-attachment: scroll; }
+  .main__moda {
+    grid-template-areas: " cuatro  " "uno" "dos" "tres" "cinco" "seis " "siete" "ocho" "nueve" "once "; }
+    .main__moda .titulomoda {
+      font-size: 2.375rem; }
+    .main__moda .ropa {
+      width: 22.2rem;
+      height: 31.25rem; }
+    .main__moda .hombre {
+      background-size: 34.375rem;
+      width: 22.2rem; }
+    .main__moda .ropados {
+      width: 22.2rem;
+      height: 31.25rem; }
+      .main__moda .ropados p {
+        font-size: 1rem; }
+    .main__moda .hombredos {
+      width: 22.2rem; }
+    .main__moda .hombretres {
+      background-size: 40.625rem;
+      width: 22.2rem; }
+    .main__moda .ropatres {
+      width: 22.2rem;
+      height: 31.25rem; }
+      .main__moda .ropatres p {
+        font-size: 1rem; }
+    .main__moda .titulomodados {
+      width: 91vw;
+      border-radius: 1rem;
+      font-size: 35px; }
+    .main__moda .mujer {
+      background-size: 35.625rem;
+      width: 22.2rem; }
+    .main__moda .mujertexto {
+      width: 22.2rem; }
+      .main__moda .mujertexto p {
+        font-size: 1rem; }
+    .main__moda .mujerdos {
+      width: 22.2rem; }
+    .main__moda .mujertextodos {
+      width: 22.2rem; }
+      .main__moda .mujertextodos p {
+        font-size: 1rem; }
+    .main__moda .mujertres {
+      width: 22.2rem; }
+    .main__moda .mujertextotres {
+      width: 22.2rem; }
+      .main__moda .mujertextotres p {
+        font-size: 1rem; }
+    .main__moda .titulomodatres {
+      grid-area: nueve;
+      text-align: center;
+      font-size: 2.375rem;
+      width: 91vw; }
+    .main__moda .acordeonimg {
+      width: 15rem; } }
+
+@media (min-width: 541px) and (max-width: 720px) {
+  .moda {
+    width: 100%;
+    padding-bottom: 1.25rem;
+    background-position-y: -1.375rem;
+    background-size: center;
+    background-attachment: scroll; }
+  .titulomoda {
+    width: 91vw;
+    border-radius: 1rem;
+    font-size: 35px; }
+  .main__moda {
+    display: grid;
+    gap: 0.938rem;
+    grid-template-rows: 1fr;
+    grid-template-areas: "cuatro " "uno" "dos" "tres" "cinco" "seis" "siete" "ocho" "nueve " "once";
+    margin: 0.938rem; }
+    .main__moda .ropa {
+      width: 41.25rem;
+      height: 31.25rem; }
+    .main__moda .hombre {
+      background-size: 41rem;
+      width: 41.25rem; }
+    .main__moda .ropados {
+      width: 41.25rem;
+      height: 31.25rem; }
+    .main__moda .hombredos {
+      background-size: 41rem;
+      width: 41.25rem; }
+    .main__moda .hombretres {
+      background-size: 41rem;
+      width: 41.25rem; }
+    .main__moda .ropatres {
+      width: 41.25rem;
+      height: 31.25rem; }
+    .main__moda .titulomodados {
+      width: 91vw;
+      border-radius: 1rem;
+      font-size: 35px; }
+    .main__moda .mujer {
+      background-size: 41rem;
+      width: 41.25rem; }
+    .main__moda .mujertexto {
+      width: 41.25rem;
+      height: 31.25rem; }
+    .main__moda .mujerdos {
+      background-size: 41rem;
+      width: 41.25rem; }
+    .main__moda .mujertextodos {
+      width: 41.25rem;
+      height: 31.25rem; }
+    .main__moda .mujertres {
+      background-size: 41rem;
+      width: 41.25rem; }
+    .main__moda .mujertextotres {
+      width: 41.25rem;
+      height: 31.25rem; }
+    .main__moda .titulomodatres {
+      width: 91vw;
+      border-radius: 1rem;
+      font-size: 35px; } }
+
+/* -----------footer----------- */
+@media (min-width: 320px) and (max-width: 540px) {
+  footer {
+    flex-direction: column; }
+  .logofooter img {
+    width: 1rem;
+    height: 1rem; }
+  .logofooter p {
+    font-size: 0.5rem; }
+  .musica {
+    width: 99.8vw;
+    padding-bottom: 2rem;
+    background-position-y: 0rem;
+    background-attachment: scroll;
+    background-size: cover; } }
+
+/* -------------------CONTACTO---------------- */
+@media (min-width: 320px) and (max-width: 540px) {
+  .grid__contacto {
+    display: grid;
+    grid-template-rows: 0.4fr 0.01fr 0.1fr;
+    grid-template-areas: "contacto " "main__formulario" "footer "; }
+    .grid__contacto .contacto {
+      display: flex;
+      flex-direction: row;
+      width: 98vw;
+      padding-bottom: 2.75rem;
+      background-position-y: 0rem;
+      background-position-x: -9.5rem;
+      background-attachment: scroll; }
+    .grid__contacto .goku {
+      width: 2rem; }
+      .grid__contacto .goku img {
+        width: 2rem;
+        height: 8rem; } }
+
+@media (min-width: 541px) and (max-width: 720px) {
+  .contacto {
+    display: flex;
+    flex-direction: row;
+    width: 99vw;
+    padding-bottom: 2.75rem;
+    background-position-y: 0rem;
+    background-position-x: 0.5rem;
+    background-attachment: scroll; }
+  .goku img {
+    width: 8rem;
+    height: 18rem; } }
+
 * {
   margin: 0px;
   padding: 0px; }
@@ -15,30 +420,27 @@ ul {
   font-family: 'Inconsolata', monospace;
   font-style: italic;
   padding-left: 0rem; }
-
-li {
-  padding-left: 0.625rem;
-  margin-top: 0.938rem;
-  font-size: 1.063rem;
-  background-color: rgba(251, 127, 255, 0.192);
-  width: 15.625rem;
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-  border-radius: 0rem 1.25rem 1.25rem 0rem;
-  box-shadow: 0.313rem 0rem 0.625rem #63002e;
-  transition: ease-in 0.6s; }
-
-li:hover {
-  padding-left: 3.125rem; }
-
-ul a {
-  text-decoration: none;
-  font-size: 2.5rem;
-  background: linear-gradient(rgba(0, 158, 250, 0.849), rgba(255, 255, 255, 0.733));
-  -webkit-background-clip: text;
-  color: transparent;
-  font-weight: 500;
-  text-shadow: 0px 0.438rem 0.313rem rgba(0, 0, 0, 0.671); }
+  ul li {
+    padding-left: 0.625rem;
+    margin-top: 0.938rem;
+    font-size: 1.063rem;
+    background-color: rgba(251, 127, 255, 0.192);
+    width: 15.625rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    border-radius: 0rem 1.25rem 1.25rem 0rem;
+    box-shadow: 0.313rem 0rem 0.625rem #63002e;
+    transition: ease-in 0.6s; }
+    ul li li:hover {
+      padding-left: 3.125rem; }
+  ul a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    background: linear-gradient(rgba(0, 158, 250, 0.849), rgba(255, 255, 255, 0.733));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 500;
+    text-shadow: 0px 0.438rem 0.313rem rgba(0, 0, 0, 0.671); }
 
 .gridindex {
   display: grid;
@@ -67,24 +469,10 @@ ul a {
   gap: 3.125rem;
   margin: 1.563rem;
   grid-template-areas: "uno dos" "tres cuatro" "cinco seis" "siete ocho"; }
-
-.titulo {
-  text-align: center;
-  font-size: 9.375rem;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-style: oblique;
-  background: linear-gradient(rgba(255, 89, 213, 0.678), rgba(115, 246, 255, 0.664));
-  -webkit-background-clip: text;
-  color: transparent;
-  border-style: dotted;
-  border-color: aqua;
-  border-radius: 1.25rem;
-  border-top-color: pink;
-  border-bottom-color: violet;
-  border-left-color: aquamarine;
-  border-right-color: aquamarine;
-  border-radius: 0.813rem;
-  text-shadow: 0.25rem 0.438rem 0.313rem rgba(252, 153, 255, 0.3); }
+  .flex p {
+    margin-bottom: 0.813rem;
+    font-size: 1.125rem;
+    font-family: 'Montserrat Alternates', sans-serif; }
 
 .carta {
   display: flex;
@@ -94,136 +482,120 @@ ul a {
   flex-direction: column;
   width: 100%;
   height: 31.25rem; }
-
-.carta__uno {
-  width: 1fr;
-  border-radius: 0.938rem;
-  background-image: url(../recursos/galaga.png);
-  background-size: cover;
-  background-position: center center;
-  filter: grayscale(100%);
-  grid-area: uno; }
-
-.carta__uno:hover {
-  transition: all 1.4s;
-  filter: grayscale(0%);
-  transform: scale(1.01); }
-
-.carta__dos {
-  width: 1fr;
-  grid-area: dos;
-  border-radius: 0.938rem;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.205)), url(../recursos/galagafondo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  filter: opacity(25%); }
-
-.carta__dos:hover {
-  transition: all 2.5s;
-  transform: scale(1.02);
-  filter: opacity(100%); }
-
-.carta__tres {
-  width: 1fr;
-  border-radius: 0.938rem;
-  background-image: url(../recursos/mario.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: grayscale(100%);
-  grid-area: cuatro; }
-
-.carta__tres:hover {
-  transition: all 1.4s;
-  filter: grayscale(0%);
-  transform: scale(1.01); }
-
-.carta__cuatro {
-  width: 1fr;
-  grid-area: tres;
-  border-radius: 0.938rem;
-  background-image: linear-gradient(to right, rgba(58, 2, 55, 0.144), rgba(17, 4, 77, 0.205)), url(../recursos/super-mario-bros-level-ending.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 0.938rem;
-  justify-content: inherit;
-  align-items: center;
-  background-size: cover;
-  filter: opacity(25%); }
-
-.carta__cuatro:hover {
-  transition: all 2.5s;
-  transform: scale(1.02);
-  filter: opacity(100%); }
-
-.carta__cinco {
-  width: 1fr;
-  border-radius: 0.938rem;
-  background-image: url(../recursos/contraaa.png);
-  background-size: cover;
-  background-position-y: -11.875rem;
-  background-repeat: no-repeat;
-  filter: grayscale(100%);
-  grid-area: cinco; }
-
-.carta__cinco:hover {
-  transition: all 1.4s;
-  filter: grayscale(0%);
-  transform: scale(1.01); }
-
-.carta__seis {
-  width: 1fr;
-  grid-area: seis;
-  border-radius: 0.938rem;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.205)), url(../recursos/contrafondo.png);
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
-  margin-bottom: 0.938rem;
-  justify-content: inherit;
-  align-items: center;
-  background-size: auto;
-  filter: opacity(25%); }
-
-.carta__seis:hover {
-  transition: all 2.5s;
-  transform: scale(1.02);
-  filter: opacity(100%); }
-
-.carta__siete {
-  width: 1fr;
-  grid-area: siete;
-  border-radius: 0.938rem;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.205)), url(../recursos/out-run-2.jpg);
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
-  margin-bottom: 0.938rem;
-  justify-content: inherit;
-  align-items: center;
-  background-size: auto;
-  filter: opacity(25%); }
-
-.carta__ocho:hover {
-  transition: all 2.5s;
-  transform: scale(1.02);
-  filter: opacity(100%); }
-
-.carta__ocho {
-  width: 1fr;
-  border-radius: 0.938rem;
-  background-image: url(../recursos/out-run.jpg);
-  background-size: cover;
-  background-position-y: -11.875rem;
-  background-repeat: no-repeat;
-  filter: grayscale(100%);
-  grid-area: ocho; }
-
-.carta__siete:hover {
-  transition: all 1.4s;
-  filter: grayscale(0%);
-  transform: scale(1.01); }
+  .carta__uno {
+    width: 1fr;
+    border-radius: 1rem;
+    background-image: url(../recursos/galaga.png);
+    background-size: cover;
+    background-position: center center;
+    filter: grayscale(100%);
+    grid-area: uno; }
+    .carta__uno:hover {
+      transition: all 1.4s;
+      filter: grayscale(0%);
+      transform: scale(1.01); }
+  .carta__dos {
+    width: 1fr;
+    grid-area: dos;
+    border-radius: 1rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.205)), url(../recursos/galagafondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: opacity(25%); }
+    .carta__dos:hover {
+      transition: all 2.5s;
+      transform: scale(1.02);
+      filter: opacity(100%); }
+  .carta__tres {
+    width: 1fr;
+    border-radius: 1rem;
+    background-image: url(../recursos/mario.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    grid-area: cuatro; }
+    .carta__tres:hover {
+      transition: all 1.4s;
+      filter: grayscale(0%);
+      transform: scale(1.01); }
+  .carta__cuatro {
+    width: 1fr;
+    grid-area: tres;
+    border-radius: 1rem;
+    background-image: linear-gradient(to right, rgba(58, 2, 55, 0.144), rgba(17, 4, 77, 0.205)), url(../recursos/super-mario-bros-level-ending.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0.938rem;
+    justify-content: inherit;
+    align-items: center;
+    background-size: cover;
+    filter: opacity(25%); }
+    .carta__cuatro:hover {
+      transition: all 2.5s;
+      transform: scale(1.02);
+      filter: opacity(100%); }
+  .carta__cinco {
+    width: 1fr;
+    border-radius: 1rem;
+    background-image: url(../recursos/contraaa.png);
+    background-size: cover;
+    background-position-y: -11.875rem;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    grid-area: cinco; }
+    .carta__cinco:hover {
+      transition: all 1.4s;
+      filter: grayscale(0%);
+      transform: scale(1.01); }
+  .carta__seis {
+    width: 1fr;
+    grid-area: seis;
+    border-radius: 1rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.205)), url(../recursos/contrafondo.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    margin-bottom: 0.938rem;
+    justify-content: inherit;
+    align-items: center;
+    background-size: auto;
+    filter: opacity(25%); }
+    .carta__seis:hover {
+      transition: all 2.5s;
+      transform: scale(1.02);
+      filter: opacity(100%); }
+  .carta__siete {
+    width: 1fr;
+    grid-area: siete;
+    border-radius: 1rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.205)), url(../recursos/out-run-2.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    margin-bottom: 0.938rem;
+    justify-content: inherit;
+    align-items: center;
+    background-size: auto;
+    filter: opacity(25%); }
+    .carta__siete:hover {
+      transition: all 1.4s;
+      filter: grayscale(0%);
+      transform: scale(1.01); }
+  .carta__ocho {
+    width: 1fr;
+    border-radius: 1rem;
+    background-image: url(../recursos/out-run.jpg);
+    background-size: cover;
+    background-position-y: -11.875rem;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    grid-area: ocho; }
+    .carta__ocho:hover {
+      transition: all 2.5s;
+      transform: scale(1.02);
+      filter: opacity(100%); }
 
 h1 {
   font-size: 5rem;
@@ -252,69 +624,339 @@ h4 {
   font-family: 'Inconsolata', monospace;
   -webkit-text-stroke: 0.001rem rgba(141, 1, 1, 0.514); }
 
-.flex p {
-  margin-bottom: 0.813rem;
-  font-size: 1.125rem;
-  font-family: 'Montserrat Alternates', sans-serif; }
-
 /*     ----------------------------------------------------------- */
 .flexx {
   display: grid;
   gap: 3.125rem;
   margin: 1.563rem;
   grid-template-areas: "uno dos tres" "cuatro cuatro cuatro"; }
-
-.walkman {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  height: 31.25rem; }
-
-.walkman__uno {
-  width: 100%;
-  border-radius: 0.938rem;
-  background-image: url(../recursos/walkmanuno.jpg);
-  background-size: cover;
-  background-position: center;
-  filter: grayscale(100%);
-  grid-area: uno; }
-
-.walkman__dos {
-  width: 100%;
-  border-radius: 0.938rem;
-  background-image: url(../recursos/walkmandos.jpg);
-  background-size: cover;
-  background-position: center;
-  grid-area: dos; }
-
-.walkman__tres {
-  width: 100%;
-  border-radius: 0.938rem;
-  background-image: url(../recursos/walkmantres.jpg);
-  background-size: cover;
-  background-position: center;
-  grid-area: tres; }
-
-.walkman__cuatro {
-  width: 1fr;
-  grid-area: cuatro;
-  color: rgba(207, 69, 241, 0.514);
-  background: url(../recursos/walkman-png.png), white;
-  background-position: start;
-  background-repeat: no-repeat;
-  font-size: 1.563rem;
-  font-family: monospace;
-  text-shadow: 0rem 0.438rem 0.313rem rgba(0, 0, 0, 0.527);
-  font-weight: bold; }
-
-.walkman__cuatro p {
-  align-self: flex-end; }
+  .flexx .walkman {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 31.25rem; }
+    .flexx .walkman__uno {
+      width: 100%;
+      border-radius: 1rem;
+      background-image: url(../recursos/walkmanuno.jpg);
+      background-size: cover;
+      background-position: center;
+      filter: grayscale(100%);
+      grid-area: uno; }
+    .flexx .walkman__dos {
+      width: 100%;
+      border-radius: 1rem;
+      background-image: url(../recursos/walkmandos.jpg);
+      background-size: cover;
+      background-position: center;
+      grid-area: dos; }
+    .flexx .walkman__tres {
+      width: 100%;
+      border-radius: 1rem;
+      background-image: url(../recursos/walkmantres.jpg);
+      background-size: cover;
+      background-position: center;
+      grid-area: tres; }
+    .flexx .walkman__cuatro {
+      width: 1fr;
+      grid-area: cuatro;
+      color: rgba(207, 69, 241, 0.514);
+      background: url(../recursos/walkman-png.png), white;
+      background-position: start;
+      background-repeat: no-repeat;
+      font-size: 1.563rem;
+      font-family: monospace;
+      text-shadow: 0rem 0.438rem 0.313rem rgba(0, 0, 0, 0.527);
+      font-weight: bold; }
+      .flexx .walkman__cuatro p {
+        align-self: flex-end; }
 
 .footerindex {
   grid-area: footerindex; }
 
+/* -------------------CINE------------------ */
+.cine {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(../recursos/back-to-banner.jpg);
+  width: 100%;
+  padding-bottom: 13.75rem;
+  background-position-y: -6.25rem;
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between; }
+
+.peliculas__titulo {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2.188rem;
+  color: antiquewhite;
+  margin: 0.938rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.peliculas__descripcion {
+  display: flex;
+  flex-wrap: wrap;
+  color: rgba(255, 183, 251, 0.349);
+  font-size: 1.25rem;
+  font-family: monospace; }
+
+/* --------------MODA------------- */
+.moda {
+  display: flex;
+  background-image: url(../recursos/portadamoda.jpg);
+  width: 100%;
+  padding-bottom: 16.25rem;
+  background-position-y: -4.375rem;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  justify-content: space-between; }
+
+.main__moda {
+  display: grid;
+  gap: 0.938rem;
+  grid-template-areas: " cuatro cuatro cuatro " "uno dos tres" "cinco cinco cinco" "seis siete ocho" "nueve nueve nueve" "once once once";
+  margin: 0.938rem; }
+  .main__moda .ropa {
+    grid-area: uno;
+    background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
+    width: 31.25rem;
+    height: 31.25rem;
+    text-align: center;
+    border-radius: 1rem;
+    border: solid violet;
+    opacity: 100%; }
+    .main__moda .ropa p {
+      margin-top: 12.5rem;
+      font-size: 1.563rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: rgba(53, 0, 44, 0.863); }
+    .main__moda .ropa:hover {
+      transition: all 2.5s;
+      transform: translateX(34.375rem);
+      filter: opacity(0%); }
+  .main__moda .hombre {
+    grid-area: uno;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/moda-hombre.jpg);
+    background-size: 34.375rem;
+    width: 31.25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 100%;
+    border-radius: 1rem;
+    border: solid rgba(0, 0, 0, 0.452); }
+  .main__moda .ropados {
+    grid-area: dos;
+    background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
+    width: 31.25rem;
+    height: 31.25rem;
+    text-align: center;
+    border-radius: 1rem;
+    border: solid violet;
+    opacity: 100%; }
+    .main__moda .ropados p {
+      font-size: 1.563rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin: 1.563rem;
+      color: rgba(49, 0, 0, 0.877); }
+    .main__moda .ropados:hover {
+      transition: all 2.5s;
+      transform: translateX(34.375rem);
+      filter: opacity(0%); }
+  .main__moda .hombredos {
+    grid-area: dos;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/look-retro.webp);
+    background-size: 31.25rem;
+    width: 31.25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 100%;
+    border-radius: 1rem;
+    border: solid rgba(0, 0, 0, 0.452); }
+  .main__moda .hombretres {
+    grid-area: tres;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/glam-punk.jpg);
+    background-size: 40.625rem;
+    width: 31.25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 100%;
+    border-radius: 1rem;
+    border: solid rgba(0, 0, 0, 0.452); }
+  .main__moda .ropatres {
+    grid-area: tres;
+    background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
+    width: 31.25rem;
+    height: 31.25rem;
+    text-align: center;
+    border-radius: 1rem;
+    border: solid violet;
+    opacity: 100%; }
+    .main__moda .ropatres p {
+      font-size: 1.563rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin: 1.563rem;
+      color: rgba(0, 1, 12, 0.932); }
+    .main__moda .ropatres:hover {
+      transition: all 2.5s;
+      transform: translateX(34.375rem);
+      filter: opacity(0%); }
+  .main__moda .mujer {
+    grid-area: seis;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/ropamujer.jpg);
+    background-size: 35.625rem;
+    width: 31.25rem;
+    background-position: cover;
+    background-repeat: no-repeat;
+    opacity: 100%;
+    border-radius: 1rem;
+    border: solid rgba(0, 0, 0, 0.452); }
+  .main__moda .mujertexto {
+    grid-area: seis;
+    background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
+    width: 31.25rem;
+    height: 31.25rem;
+    text-align: center;
+    border-radius: 1rem;
+    border: solid violet;
+    opacity: 100%; }
+    .main__moda .mujertexto p {
+      font-size: 1.563rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin: 1.563rem;
+      color: rgba(138, 0, 53, 0.74); }
+    .main__moda .mujertexto:hover {
+      transition: all 2.5s;
+      transform: translatey(34.375rem);
+      filter: opacity(0%); }
+  .main__moda .mujerdos {
+    grid-area: siete;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/modamujer.webp);
+    background-size: 46.875rem;
+    width: 31.25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 100%;
+    border-radius: 1rem;
+    border: solid rgba(0, 0, 0, 0.452); }
+  .main__moda .mujertextodos {
+    grid-area: siete;
+    background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
+    width: 31.25rem;
+    height: 31.25rem;
+    text-align: center;
+    border-radius: 1rem;
+    border: solid violet;
+    opacity: 100%; }
+    .main__moda .mujertextodos p {
+      font-size: 1.563rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin: 1.563rem;
+      color: rgba(115, 0, 138, 0.74); }
+    .main__moda .mujertextodos:hover {
+      transition: all 2.5s;
+      transform: translatey(34.375rem);
+      filter: opacity(0%); }
+  .main__moda .mujertres {
+    grid-area: ocho;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/patines.jpg);
+    background-size: 46.875rem;
+    width: 31.25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 100%;
+    border-radius: 1rem;
+    border: solid rgba(0, 0, 0, 0.452); }
+  .main__moda .mujertextotres {
+    grid-area: ocho;
+    background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
+    width: 31.25rem;
+    height: 31.25rem;
+    text-align: center;
+    border-radius: 1rem;
+    border: solid violet;
+    opacity: 100%; }
+    .main__moda .mujertextotres p {
+      font-size: 1.563rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin: 1.563rem;
+      color: rgba(22, 22, 22, 0.842); }
+    .main__moda .mujertextotres:hover {
+      transition: all 2.5s;
+      transform: translatey(34.375rem);
+      filter: opacity(0%); }
+
+/* ---------------------------MUSICA-------------------------- */
+.musica {
+  display: flex;
+  background-image: url(../recursos/portadamusica.jpg);
+  width: 100%;
+  padding-bottom: 13.75rem;
+  background-position-y: -9.375rem;
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between; }
+
+.mainmusica p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px; }
+  .mainmusica p:hover {
+    transition: all 2.5s;
+    transform: scale(1.02);
+    color: chartreuse; }
+
+.img-fluid {
+  height: 500px;
+  margin: 2px;
+  border-radius: 15px;
+  opacity: 50%; }
+  .img-fluid:hover {
+    transition: all 2.5s;
+    transform: scale(1.01);
+    opacity: 100%; }
+
+/* ------------------CONTACTO------------ */
+.grid__contacto {
+  display: grid;
+  grid-template-areas: "contacto contacto contacto contacto" "main__formulario main__formulario main__formulario main__formulario" "footer footer footer footer"; }
+  .grid__contacto .contacto {
+    grid-area: contacto;
+    background-image: url(../recursos/contacto.jpg);
+    width: 100%;
+    padding-bottom: 6.25rem;
+    background-position-y: -22rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; }
+  .grid__contacto .main__formulario {
+    grid-area: main__formulario;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 3rem; }
+    .grid__contacto .main__formulario .goku {
+      display: flex;
+      height: 40rem; }
+  .grid__contacto .footercontacto {
+    grid-area: footer; }
+
+.orden {
+  display: flex;
+  flex-direction: row; }
+
+.carousel {
+  display: flex;
+  width: 80%;
+  margin: 1rem; }
+
+/* ---------------INDEX------------------ */
 @media (min-width: 320px) and (max-width: 540px) {
   .index {
     width: 97vw;
@@ -338,36 +980,36 @@ h4 {
     width: 98vw; }
   li {
     width: 7rem; }
+    li:hover {
+      padding-left: 2.125rem; }
   ul a {
     font-size: 1rem; }
   .flex {
     width: 85vw;
     grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis" "siete" "ocho"; }
-  .carta__ocho:hover {
-    transition: all 2.5s;
-    transform: scale(1.02);
-    filter: opacity(100%); }
-  .carta__ocho {
-    width: 1fr;
-    border-radius: 0.938rem;
-    background-image: url(../recursos/out-run.jpg);
-    background-size: center;
-    background-position-x: 0rem;
-    background-position-y: 0.1rem;
-    background-repeat: no-repeat;
-    filter: grayscale(100%);
-    grid-area: ocho; }
-  .carta {
-    justify-content: center; }
+    .flex .carta {
+      justify-content: center; }
+      .flex .carta__ocho {
+        width: 1fr;
+        border-radius: 1rem;
+        background-image: url(../recursos/out-run.jpg);
+        background-size: center;
+        background-position-x: 0rem;
+        background-position-y: 0.1rem;
+        background-repeat: no-repeat;
+        filter: grayscale(100%);
+        grid-area: ocho; }
+        .flex .carta__ocho:hover {
+          transition: all 2.5s;
+          transform: scale(1.02);
+          filter: opacity(100%); }
   .flexx {
     grid-template-areas: "uno" "dos" "tres" "cuatro"; }
-  .walkman {
-    width: 80vw; }
-  li:hover {
-    padding-left: 2.125rem; }
-  .walkman__cuatro {
-    background-position: start;
-    font-size: 1rem; } }
+    .flexx .walkman {
+      width: 80vw; }
+      .flexx .walkman__cuatro {
+        background-position: start;
+        font-size: 1rem; } }
 
 @media (min-width: 541px) and (max-width: 720px) {
   ul {
@@ -389,59 +1031,25 @@ h4 {
     gap: 3.125rem;
     margin: 1.563rem;
     grid-template-areas: "uno " "dos" "tres" "cuatro" "cinco" "seis" "siete" "ocho"; }
-  .carta__ocho:hover {
-    transition: all 2.5s;
-    transform: scale(1.02);
-    filter: opacity(100%); }
-  .carta__ocho {
-    width: 1fr;
-    border-radius: 0.938rem;
-    background-image: url(../recursos/out-run.jpg);
-    background-size: center;
-    background-position-x: 0rem;
-    background-position-y: 0.1rem;
-    background-repeat: no-repeat;
-    filter: grayscale(100%);
-    grid-area: ocho; }
+    .flex .carta__ocho {
+      width: 1fr;
+      border-radius: 1rem;
+      background-image: url(../recursos/out-run.jpg);
+      background-size: center;
+      background-position-x: 0rem;
+      background-position-y: 0.1rem;
+      background-repeat: no-repeat;
+      filter: grayscale(100%);
+      grid-area: ocho; }
+      .flex .carta__ocho:hover {
+        transition: all 2.5s;
+        transform: scale(1.02);
+        filter: opacity(100%); }
   .titulo {
     text-align: center;
     font-size: 2.375rem; } }
 
-/* -------------------CINE------------------ */
-.cine {
-  display: flex;
-  flex-wrap: wrap;
-  background-image: url(../recursos/back-to-banner.jpg);
-  width: 100%;
-  padding-bottom: 13.75rem;
-  background-position-y: -6.25rem;
-  background-size: contain;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  justify-content: space-between; }
-
-.peliculas {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: space-around; }
-
-.peliculas__titulo {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 2.188rem;
-  color: antiquewhite;
-  margin: 0.938rem;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
-
-.peliculas__descripcion {
-  display: flex;
-  flex-wrap: wrap;
-  color: rgba(255, 183, 251, 0.349);
-  font-size: 1.25rem;
-  font-family: monospace; }
-
+/* --------------CINE------------- */
 @media (min-width: 320px) and (max-width: 540px) {
   .cine {
     width: 100vw;
@@ -449,18 +1057,14 @@ h4 {
     background-position-x: center;
     background-position-y: 5rem;
     padding-bottom: 1.5rem; }
-  .titulomoda {
+  .titulomodacine {
     width: 91vw;
-    border-radius: 0.813rem; }
-  .peliculas {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; }
+    font-size: 2rem; }
   .logopeliculas {
     width: 3.8rem;
     height: 3.8rem; }
   .peliculas__titulo {
-    font-size: 2rem;
+    font-size: 2.1rem;
     margin: 0rem; } }
 
 @media (min-width: 541px) and (max-width: 720px) {
@@ -472,8 +1076,6 @@ h4 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     justify-content: space-between; }
-  .peliculas {
-    flex-direction: column; }
   .peliculas__titulo {
     display: flex;
     flex-wrap: wrap;
@@ -481,345 +1083,13 @@ h4 {
     color: antiquewhite;
     margin: 0.938rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
-  .cazafantasmas {
-    width: 50vw;
-    padding: 1.875rem;
-    margin: 1.875rem;
-    border: 0.188rem solid rgba(255, 0, 0, 0.123);
-    border-radius: 0.625rem;
-    align-items: inherit; }
-  .cazafantasmas__foto {
-    width: 12rem;
-    border-radius: 0.625rem;
-    border: solid rgba(255, 0, 0, 0.123); }
   .peliculas__titulo {
     font-size: 1rem;
     margin: 1rem; }
   .peliculas__descripcion {
-    font-size: 1rem; }
-  .topgun {
-    width: 50vw;
-    padding: 1.875rem;
-    margin: 1.875rem;
-    border: 0.188rem solid rgba(255, 0, 0, 0.123);
-    border-radius: 0.625rem;
-    align-items: center; }
-  .topgun__foto {
-    width: 12rem;
-    border-radius: 0.625rem;
-    border: solid rgba(255, 0, 0, 0.123); }
-  .beetlejuice {
-    width: 50vw;
-    padding: 1.875rem;
-    margin: 1.875rem;
-    border: 0.188rem solid rgba(255, 0, 0, 0.123);
-    border-radius: 0.625rem;
-    align-items: center; }
-  .beetlejuice__foto {
-    width: 12rem;
-    border-radius: 0.625rem;
-    border: solid rgba(255, 0, 0, 0.123); }
-  .volveralfuturo {
-    width: 50vw;
-    padding: 1.875rem;
-    margin: 1.875rem;
-    border: 0.188rem solid rgba(255, 0, 0, 0.123);
-    border-radius: 0.625rem;
-    align-items: center; }
-  .volveralfuturo__foto {
-    width: 12rem;
-    border-radius: 0.625rem;
-    border: solid rgba(255, 0, 0, 0.123); }
-  .ET {
-    width: 50vw;
-    padding: 1.875rem;
-    margin: 1.875rem;
-    border: 0.188rem solid rgba(255, 0, 0, 0.123);
-    border-radius: 0.625rem;
-    align-items: center; }
-  .ET__foto {
-    width: 12rem;
-    border-radius: 0.625rem;
-    border: solid rgba(255, 0, 0, 0.123); }
-  .scarface {
-    width: 50vw;
-    padding: 1.875rem;
-    margin: 1.875rem;
-    border: 0.188rem solid rgba(255, 0, 0, 0.123);
-    border-radius: 0.625rem;
-    align-items: center; }
-  .scarface__foto {
-    width: 12rem;
-    border-radius: 0.625rem;
-    border: solid rgba(255, 0, 0, 0.123); } }
+    font-size: 1rem; } }
 
-/* --------------MODA------------- */
-.moda {
-  display: flex;
-  background-image: url(../recursos/portadamoda.jpg);
-  width: 100%;
-  padding-bottom: 16.25rem;
-  background-position-y: -4.375rem;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  justify-content: space-between; }
-
-.titulomoda {
-  grid-area: cuatro;
-  text-align: center;
-  font-size: 9.375rem;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-style: oblique;
-  background: linear-gradient(rgba(255, 89, 213, 0.678), rgba(115, 246, 255, 0.664));
-  -webkit-background-clip: text;
-  color: transparent;
-  border-style: dotted;
-  border-color: aqua;
-  border-radius: 1.25rem;
-  border-top-color: pink;
-  border-bottom-color: violet;
-  border-left-color: aquamarine;
-  border-right-color: aquamarine;
-  border-radius: 0.813rem;
-  text-shadow: 0.25rem 0.438rem 0.313rem rgba(252, 153, 255, 0.3); }
-
-.main__moda {
-  display: grid;
-  gap: 0.938rem;
-  grid-template-areas: " cuatro cuatro cuatro " "uno dos tres" "cinco cinco cinco" "seis siete ocho" "nueve nueve nueve" "once once once";
-  margin: 0.938rem; }
-
-.ropa {
-  grid-area: uno;
-  background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-  width: 31.25rem;
-  height: 31.25rem;
-  text-align: center;
-  border-radius: 1.25rem;
-  border: solid violet;
-  opacity: 100%; }
-
-.ropa p {
-  margin-top: 12.5rem;
-  font-size: 1.563rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: rgba(53, 0, 44, 0.863); }
-
-.hombre {
-  grid-area: uno;
-  background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/moda-hombre.jpg);
-  background-size: 34.375rem;
-  width: 31.25rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 100%;
-  border-radius: 0.938rem;
-  border: solid rgba(0, 0, 0, 0.452); }
-
-.ropa:hover {
-  transition: all 2.5s;
-  transform: translateX(34.375rem);
-  filter: opacity(0%); }
-
-.ropados {
-  grid-area: dos;
-  background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-  width: 31.25rem;
-  height: 31.25rem;
-  text-align: center;
-  border-radius: 1.25rem;
-  border: solid violet;
-  opacity: 100%; }
-
-.ropados p {
-  font-size: 1.563rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 1.563rem;
-  color: rgba(49, 0, 0, 0.877); }
-
-.ropados:hover {
-  transition: all 2.5s;
-  transform: translateX(34.375rem);
-  filter: opacity(0%); }
-
-.hombredos {
-  grid-area: dos;
-  background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/look-retro.webp);
-  background-size: 31.25rem;
-  width: 31.25rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 100%;
-  border-radius: 0.938rem;
-  border: solid rgba(0, 0, 0, 0.452); }
-
-.hombretres {
-  grid-area: tres;
-  background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/glam-punk.jpg);
-  background-size: 40.625rem;
-  width: 31.25rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 100%;
-  border-radius: 0.938rem;
-  border: solid rgba(0, 0, 0, 0.452); }
-
-.ropatres {
-  grid-area: tres;
-  background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-  width: 31.25rem;
-  height: 31.25rem;
-  text-align: center;
-  border-radius: 1.25rem;
-  border: solid violet;
-  opacity: 100%; }
-
-.ropatres p {
-  font-size: 1.563rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 1.563rem;
-  color: rgba(0, 1, 12, 0.932); }
-
-.ropatres:hover {
-  transition: all 2.5s;
-  transform: translateX(34.375rem);
-  filter: opacity(0%); }
-
-.titulomodados {
-  grid-area: cinco;
-  text-align: center;
-  font-size: 9.375rem;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-style: oblique;
-  background: linear-gradient(rgba(255, 89, 213, 0.678), rgba(115, 246, 255, 0.664));
-  -webkit-background-clip: text;
-  color: transparent;
-  border-style: dotted;
-  border-color: aqua;
-  border-radius: 1.25rem;
-  border-top-color: pink;
-  border-bottom-color: violet;
-  border-left-color: aquamarine;
-  border-right-color: aquamarine;
-  border-radius: 0.813rem;
-  text-shadow: 0.25rem 0.438rem 0.313rem rgba(252, 153, 255, 0.3); }
-
-.mujer {
-  grid-area: seis;
-  background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/ropamujer.jpg);
-  background-size: 35.625rem;
-  width: 31.25rem;
-  background-position: cover;
-  background-repeat: no-repeat;
-  opacity: 100%;
-  border-radius: 0.938rem;
-  border: solid rgba(0, 0, 0, 0.452); }
-
-.mujertexto {
-  grid-area: seis;
-  background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-  width: 31.25rem;
-  height: 31.25rem;
-  text-align: center;
-  border-radius: 1.25rem;
-  border: solid violet;
-  opacity: 100%; }
-
-.mujertexto p {
-  font-size: 1.563rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 1.563rem;
-  color: rgba(138, 0, 53, 0.74); }
-
-.mujertexto:hover {
-  transition: all 2.5s;
-  transform: translatey(34.375rem);
-  filter: opacity(0%); }
-
-.mujerdos {
-  grid-area: siete;
-  background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/modamujer.webp);
-  background-size: 46.875rem;
-  width: 31.25rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 100%;
-  border-radius: 0.938rem;
-  border: solid rgba(0, 0, 0, 0.452); }
-
-.mujertextodos {
-  grid-area: siete;
-  background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-  width: 31.25rem;
-  height: 31.25rem;
-  text-align: center;
-  border-radius: 1.25rem;
-  border: solid violet;
-  opacity: 100%; }
-
-.mujertextodos p {
-  font-size: 1.563rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 1.563rem;
-  color: rgba(115, 0, 138, 0.74); }
-
-.mujertextodos:hover {
-  transition: all 2.5s;
-  transform: translatey(34.375rem);
-  filter: opacity(0%); }
-
-.mujertres {
-  grid-area: ocho;
-  background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/patines.jpg);
-  background-size: 46.875rem;
-  width: 31.25rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 100%;
-  border-radius: 0.938rem;
-  border: solid rgba(0, 0, 0, 0.452); }
-
-.mujertextotres {
-  grid-area: ocho;
-  background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-  width: 31.25rem;
-  height: 31.25rem;
-  text-align: center;
-  border-radius: 1.25rem;
-  border: solid violet;
-  opacity: 100%; }
-
-.mujertextotres p {
-  font-size: 1.563rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 1.563rem;
-  color: rgba(22, 22, 22, 0.842); }
-
-.mujertextotres:hover {
-  transition: all 2.5s;
-  transform: translatey(34.375rem);
-  filter: opacity(0%); }
-
-.titulomodatres {
-  grid-area: nueve;
-  text-align: center;
-  font-size: 9.375rem;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-style: oblique;
-  background: linear-gradient(rgba(255, 89, 213, 0.678), rgba(115, 246, 255, 0.664));
-  -webkit-background-clip: text;
-  color: transparent;
-  border-style: dotted;
-  border-color: aqua;
-  border-radius: 1.25rem;
-  border-top-color: pink;
-  border-bottom-color: violet;
-  border-left-color: aquamarine;
-  border-right-color: aquamarine;
-  border-radius: 0.813rem;
-  text-shadow: 0.25rem 0.438rem 0.313rem rgba(252, 153, 255, 0.3); }
-
+/* ------------MODA------------- */
 @media (min-width: 320px) and (max-width: 540px) {
   .moda {
     width: 100vw;
@@ -830,59 +1100,59 @@ h4 {
     background-attachment: scroll; }
   .main__moda {
     grid-template-areas: " cuatro  " "uno" "dos" "tres" "cinco" "seis " "siete" "ocho" "nueve" "once "; }
-  .titulomoda {
-    font-size: 2.375rem; }
-  .ropa {
-    width: 22.2rem;
-    height: 31.25rem; }
-  .hombre {
-    background-size: 34.375rem;
-    width: 22.2rem; }
-  .ropados {
-    width: 22.2rem;
-    height: 31.25rem; }
-  .ropados p {
-    font-size: 1rem; }
-  .hombredos {
-    width: 22.2rem; }
-  .hombretres {
-    background-size: 40.625rem;
-    width: 22.2rem; }
-  .ropatres {
-    width: 22.2rem;
-    height: 31.25rem; }
-  .ropatres p {
-    font-size: 1rem; }
-  .titulomodados {
-    width: 91vw;
-    border-radius: 0.813rem;
-    font-size: 35px; }
-  .mujer {
-    background-size: 35.625rem;
-    width: 22.2rem; }
-  .mujertexto {
-    width: 22.2rem; }
-  .mujertexto p {
-    font-size: 1rem; }
-  .mujertextodos p {
-    font-size: 1rem; }
-  .mujertextotres p {
-    font-size: 1rem; }
-  .mujerdos {
-    width: 22.2rem; }
-  .mujertextodos {
-    width: 22.2rem; }
-  .mujertres {
-    width: 22.2rem; }
-  .mujertextotres {
-    width: 22.2rem; }
-  .titulomodatres {
-    grid-area: nueve;
-    text-align: center;
-    font-size: 2.375rem;
-    width: 91vw; }
-  .acordeonimg {
-    width: 15rem; } }
+    .main__moda .titulomoda {
+      font-size: 2.375rem; }
+    .main__moda .ropa {
+      width: 22.2rem;
+      height: 31.25rem; }
+    .main__moda .hombre {
+      background-size: 34.375rem;
+      width: 22.2rem; }
+    .main__moda .ropados {
+      width: 22.2rem;
+      height: 31.25rem; }
+      .main__moda .ropados p {
+        font-size: 1rem; }
+    .main__moda .hombredos {
+      width: 22.2rem; }
+    .main__moda .hombretres {
+      background-size: 40.625rem;
+      width: 22.2rem; }
+    .main__moda .ropatres {
+      width: 22.2rem;
+      height: 31.25rem; }
+      .main__moda .ropatres p {
+        font-size: 1rem; }
+    .main__moda .titulomodados {
+      width: 91vw;
+      border-radius: 1rem;
+      font-size: 35px; }
+    .main__moda .mujer {
+      background-size: 35.625rem;
+      width: 22.2rem; }
+    .main__moda .mujertexto {
+      width: 22.2rem; }
+      .main__moda .mujertexto p {
+        font-size: 1rem; }
+    .main__moda .mujerdos {
+      width: 22.2rem; }
+    .main__moda .mujertextodos {
+      width: 22.2rem; }
+      .main__moda .mujertextodos p {
+        font-size: 1rem; }
+    .main__moda .mujertres {
+      width: 22.2rem; }
+    .main__moda .mujertextotres {
+      width: 22.2rem; }
+      .main__moda .mujertextotres p {
+        font-size: 1rem; }
+    .main__moda .titulomodatres {
+      grid-area: nueve;
+      text-align: center;
+      font-size: 2.375rem;
+      width: 91vw; }
+    .main__moda .acordeonimg {
+      width: 15rem; } }
 
 @media (min-width: 541px) and (max-width: 720px) {
   .moda {
@@ -893,7 +1163,7 @@ h4 {
     background-attachment: scroll; }
   .titulomoda {
     width: 91vw;
-    border-radius: 0.813rem;
+    border-radius: 1rem;
     font-size: 35px; }
   .main__moda {
     display: grid;
@@ -901,85 +1171,52 @@ h4 {
     grid-template-rows: 1fr;
     grid-template-areas: "cuatro " "uno" "dos" "tres" "cinco" "seis" "siete" "ocho" "nueve " "once";
     margin: 0.938rem; }
-  .ropa {
-    width: 41.25rem;
-    height: 31.25rem; }
-  .hombre {
-    background-size: 41rem;
-    width: 41.25rem; }
-  .ropados {
-    width: 41.25rem;
-    height: 31.25rem; }
-  .hombredos {
-    background-size: 41rem;
-    width: 41.25rem; }
-  .hombretres {
-    background-size: 41rem;
-    width: 41.25rem; }
-  .ropatres {
-    width: 41.25rem;
-    height: 31.25rem; }
-  .titulomodados {
-    width: 91vw;
-    border-radius: 0.813rem;
-    font-size: 35px; }
-  .mujer {
-    background-size: 41rem;
-    width: 41.25rem; }
-  .mujertexto {
-    width: 41.25rem;
-    height: 31.25rem; }
-  .mujerdos {
-    background-size: 41rem;
-    width: 41.25rem; }
-  .mujertextodos {
-    width: 41.25rem;
-    height: 31.25rem; }
-  .mujertres {
-    background-size: 41rem;
-    width: 41.25rem; }
-  .mujertextotres {
-    width: 41.25rem;
-    height: 31.25rem; }
-  .titulomodatres {
-    width: 91vw;
-    border-radius: 0.813rem;
-    font-size: 35px; } }
+    .main__moda .ropa {
+      width: 41.25rem;
+      height: 31.25rem; }
+    .main__moda .hombre {
+      background-size: 41rem;
+      width: 41.25rem; }
+    .main__moda .ropados {
+      width: 41.25rem;
+      height: 31.25rem; }
+    .main__moda .hombredos {
+      background-size: 41rem;
+      width: 41.25rem; }
+    .main__moda .hombretres {
+      background-size: 41rem;
+      width: 41.25rem; }
+    .main__moda .ropatres {
+      width: 41.25rem;
+      height: 31.25rem; }
+    .main__moda .titulomodados {
+      width: 91vw;
+      border-radius: 1rem;
+      font-size: 35px; }
+    .main__moda .mujer {
+      background-size: 41rem;
+      width: 41.25rem; }
+    .main__moda .mujertexto {
+      width: 41.25rem;
+      height: 31.25rem; }
+    .main__moda .mujerdos {
+      background-size: 41rem;
+      width: 41.25rem; }
+    .main__moda .mujertextodos {
+      width: 41.25rem;
+      height: 31.25rem; }
+    .main__moda .mujertres {
+      background-size: 41rem;
+      width: 41.25rem; }
+    .main__moda .mujertextotres {
+      width: 41.25rem;
+      height: 31.25rem; }
+    .main__moda .titulomodatres {
+      width: 91vw;
+      border-radius: 1rem;
+      font-size: 35px; } }
 
-/* ---------------------------MUSICA-------------------------- */
-.musica {
-  display: flex;
-  background-image: url(../recursos/portadamusica.jpg);
-  width: 100%;
-  padding-bottom: 13.75rem;
-  background-position-y: -9.375rem;
-  background-size: contain;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  justify-content: space-between; }
-
-.mainmusica p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 18px; }
-
-.img-fluid {
-  height: 500px;
-  margin: 2px;
-  border-radius: 15px;
-  opacity: 50%; }
-
-.mainmusica p:hover {
-  transition: all 2.5s;
-  transform: scale(1.02);
-  color: chartreuse; }
-
-.img-fluid:hover {
-  transition: all 2.5s;
-  transform: scale(1.01);
-  opacity: 100%; }
-
-/* -------FOOTER------ */
+/* -----------footer----------- */
 @media (min-width: 320px) and (max-width: 540px) {
   footer {
     flex-direction: column; }
@@ -995,53 +1232,25 @@ h4 {
     background-attachment: scroll;
     background-size: cover; } }
 
-/* ------------------CONTACTO------------ */
-.contacto {
-  grid-area: contacto;
-  background-image: url(../recursos/contacto.jpg);
-  width: 100%;
-  padding-bottom: 6.25rem;
-  background-position-y: -22rem;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat; }
-
-.goku {
-  display: flex;
-  height: 40rem; }
-
-.grid__contacto {
-  display: grid;
-  grid-template-areas: "contacto contacto contacto contacto" "main__formulario main__formulario main__formulario main__formulario" "footer footer footer footer"; }
-
-.main__formulario {
-  grid-area: main__formulario;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  padding: 3rem; }
-
-.footercontacto {
-  grid-area: footer; }
-
+/* -------------------CONTACTO---------------- */
 @media (min-width: 320px) and (max-width: 540px) {
-  .contacto {
-    display: flex;
-    flex-direction: row;
-    width: 98vw;
-    padding-bottom: 2.75rem;
-    background-position-y: 0rem;
-    background-position-x: -9.5rem;
-    background-attachment: scroll; }
-  .goku {
-    width: 2rem; }
-  .goku img {
-    width: 2rem;
-    height: 8rem; }
   .grid__contacto {
     display: grid;
     grid-template-rows: 0.4fr 0.01fr 0.1fr;
-    grid-template-areas: "contacto " "main__formulario" "footer "; } }
+    grid-template-areas: "contacto " "main__formulario" "footer "; }
+    .grid__contacto .contacto {
+      display: flex;
+      flex-direction: row;
+      width: 98vw;
+      padding-bottom: 2.75rem;
+      background-position-y: 0rem;
+      background-position-x: -9.5rem;
+      background-attachment: scroll; }
+    .grid__contacto .goku {
+      width: 2rem; }
+      .grid__contacto .goku img {
+        width: 2rem;
+        height: 8rem; } }
 
 @media (min-width: 541px) and (max-width: 720px) {
   .contacto {
@@ -1055,12 +1264,3 @@ h4 {
   .goku img {
     width: 8rem;
     height: 18rem; } }
-
-.orden {
-  display: flex;
-  flex-direction: row; }
-
-.carousel {
-  display: flex;
-  width: 80%;
-  margin: 1rem; }
