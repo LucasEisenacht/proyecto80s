@@ -1,0 +1,17 @@
+@mixin titulo  {
+    text-align: center;
+    font-size: $font-size-titulo;
+    font-family: $font-family-titulo;
+    font-style:oblique;
+    background: $background-titulo;
+    -webkit-background-clip: text;
+    color: transparent;  
+    border-style:dotted;
+    border-color: aqua;
+    border-radius: $border-predeterminado;
+    border-top-color: pink;
+    border-bottom-color: violet;
+    border-left-color: aquamarine;
+    border-right-color: aquamarine;
+    text-shadow: $text-shadow-titulo;
+}
