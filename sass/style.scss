@@ -826,8 +826,8 @@ h4{
 
 @media (min-width: 320px) and (max-width: 540px) {
     .moda{
-        width: 100vw;
-        padding-bottom: 0.25rem;
+        width: 99vw;
+        padding-bottom: 0.20rem;
         background-position-y: 0rem;
         background-position-x: 0rem;
         background-size:center;
@@ -845,7 +845,7 @@ h4{
                             "nueve"
                             "once ";
         .titulomoda{
-            font-size: 2.375rem;
+            font-size: 2.2rem;
         }
         .ropa{
             width: 22.2rem;
@@ -877,9 +877,9 @@ h4{
             }
         }
         .titulomodados{
-            width: 91vw;
+            width: 90vw;
             border-radius: $border-predeterminado;
-            font-size: 35px;
+            font-size: 30px;
         }
         .mujer{
             background-size: 35.625rem;
@@ -912,7 +912,7 @@ h4{
         .titulomodatres{
             grid-area: nueve;
             text-align: center;
-            font-size: 2.375rem;
+            font-size: 2.2rem;
             width: 91vw;
         }
         .acordeonimg{

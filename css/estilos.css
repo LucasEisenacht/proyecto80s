@@ -776,8 +776,8 @@ h4 {
 /* ------------MODA------------- */
 @media (min-width: 320px) and (max-width: 540px) {
   .moda {
-    width: 100vw;
-    padding-bottom: 0.25rem;
+    width: 99vw;
+    padding-bottom: 0.20rem;
     background-position-y: 0rem;
     background-position-x: 0rem;
     background-size: center;
@@ -785,7 +785,7 @@ h4 {
   .main__moda {
     grid-template-areas: " cuatro  " "uno" "dos" "tres" "cinco" "seis " "siete" "ocho" "nueve" "once "; }
     .main__moda .titulomoda {
-      font-size: 2.375rem; }
+      font-size: 2.2rem; }
     .main__moda .ropa {
       width: 22.2rem;
       height: 31.25rem; }
@@ -808,9 +808,9 @@ h4 {
       .main__moda .ropatres p {
         font-size: 1rem; }
     .main__moda .titulomodados {
-      width: 91vw;
+      width: 90vw;
       border-radius: 1rem;
-      font-size: 35px; }
+      font-size: 30px; }
     .main__moda .mujer {
       background-size: 35.625rem;
       width: 22.2rem; }
@@ -833,7 +833,7 @@ h4 {
     .main__moda .titulomodatres {
       grid-area: nueve;
       text-align: center;
-      font-size: 2.375rem;
+      font-size: 2.2rem;
       width: 91vw; }
     .main__moda .acordeonimg {
       width: 15rem; } }
