@@ -609,7 +609,7 @@ h4 {
 /* ------------------CONTACTO------------ */
 .grid__contacto {
   display: grid;
-  grid-template-areas: "contacto contacto contacto contacto" "main__formulario main__formulario main__formulario main__formulario" "footer footer footer footer"; }
+  grid-template-areas: "contacto contacto contacto contacto" "contactotitulo contactotitulo contactotitulo contactotitulo" "main__formulario main__formulario main__formulario main__formulario" "footer footer footer footer"; }
   .grid__contacto .contacto {
     grid-area: contacto;
     background-image: url(../recursos/contacto.jpg);
@@ -934,7 +934,10 @@ h4 {
       width: 2rem; }
       .grid__contacto .goku img {
         width: 2rem;
-        height: 8rem; } }
+        height: 8rem; }
+    .grid__contacto .contactotitulo {
+      font-size: 1rem;
+      color: #f1328b; } }
 
 @media (min-width: 541px) and (max-width: 720px) {
   .contacto {
