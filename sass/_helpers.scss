@@ -15,3 +15,31 @@
     border-right-color: aquamarine;
     text-shadow: $text-shadow-titulo;
 }
+@mixin moda-texto{
+    width: 15rem;
+    height: 35rem;
+    p{
+        font-size: 1rem;
+    }
+}
+
+@mixin moda-imagen{
+    background-size: 33rem;
+    width: 90vw;
+    height: 60vh;
+    border: solid rgba(179, 2, 170, 0.61);
+}
+
+@mixin moda-textotab{
+    width: 37rem;
+    height: 35rem;
+    p{
+        font-size: 1.5rem;
+    }
+}
+@mixin moda-imagentab{
+    background-size: 50rem;
+    width: 90vw;
+    height: 60vh;
+    border: solid rgba(179, 2, 170, 0.61);
+}

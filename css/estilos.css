@@ -401,176 +401,175 @@ h4 {
 .main__moda {
   display: grid;
   gap: 0.938rem;
-  grid-template-areas: " cuatro cuatro cuatro " "uno dos tres" "cinco cinco cinco" "seis siete ocho" "nueve nueve nueve" "once once once";
+  grid-template-areas: " cuatro cuatro " "uno dos" "tres seis" "siete ocho" "cinco cinco" "diez doce" "trece catorce" "quince dieciseis" "nueve nueve" "once once" "veinte veinte";
   margin: 0.938rem; }
   .main__moda .ropa {
     grid-area: uno;
-    background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-    width: 31.25rem;
-    height: 31.25rem;
+    background-image: linear-gradient(to right, rgba(1, 148, 133, 0.13), rgba(194, 3, 149, 0.103));
+    width: 55rem;
+    height: 30rem;
     text-align: center;
     border-radius: 1rem;
-    border: solid violet;
+    border: solid rgba(104, 185, 168, 0.685);
     opacity: 100%; }
     .main__moda .ropa p {
       margin-top: 12.5rem;
       font-size: 1.563rem;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      color: rgba(53, 0, 44, 0.863); }
-    .main__moda .ropa:hover {
-      transition: all 2.5s;
-      transform: translateX(34.375rem);
-      filter: opacity(0%); }
-  .main__moda .hombre {
-    grid-area: uno;
-    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/moda-hombre.jpg);
-    background-size: 34.375rem;
-    width: 31.25rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 100%;
-    border-radius: 1rem;
-    border: solid rgba(0, 0, 0, 0.452); }
-  .main__moda .ropados {
-    grid-area: dos;
-    background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-    width: 31.25rem;
-    height: 31.25rem;
-    text-align: center;
-    border-radius: 1rem;
-    border: solid violet;
-    opacity: 100%; }
-    .main__moda .ropados p {
-      font-size: 1.563rem;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      margin: 1.563rem;
-      color: rgba(49, 0, 0, 0.877); }
-    .main__moda .ropados:hover {
-      transition: all 2.5s;
-      transform: translateX(34.375rem);
-      filter: opacity(0%); }
-  .main__moda .hombredos {
-    grid-area: dos;
-    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/look-retro.webp);
-    background-size: 31.25rem;
-    width: 31.25rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 100%;
-    border-radius: 1rem;
-    border: solid rgba(0, 0, 0, 0.452); }
-  .main__moda .hombretres {
-    grid-area: tres;
-    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/glam-punk.jpg);
-    background-size: 40.625rem;
-    width: 31.25rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 100%;
-    border-radius: 1rem;
-    border: solid rgba(0, 0, 0, 0.452); }
-  .main__moda .ropatres {
-    grid-area: tres;
-    background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-    width: 31.25rem;
-    height: 31.25rem;
-    text-align: center;
-    border-radius: 1rem;
-    border: solid violet;
-    opacity: 100%; }
-    .main__moda .ropatres p {
-      font-size: 1.563rem;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      margin: 1.563rem;
-      color: rgba(0, 1, 12, 0.932); }
-    .main__moda .ropatres:hover {
-      transition: all 2.5s;
-      transform: translateX(34.375rem);
-      filter: opacity(0%); }
-  .main__moda .mujer {
-    grid-area: seis;
-    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/ropamujer.jpg);
-    background-size: 35.625rem;
-    width: 31.25rem;
-    background-position: cover;
-    background-repeat: no-repeat;
-    opacity: 100%;
-    border-radius: 1rem;
-    border: solid rgba(0, 0, 0, 0.452); }
-  .main__moda .mujertexto {
-    grid-area: seis;
-    background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-    width: 31.25rem;
-    height: 31.25rem;
-    text-align: center;
-    border-radius: 1rem;
-    border: solid violet;
-    opacity: 100%; }
-    .main__moda .mujertexto p {
-      font-size: 1.563rem;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      margin: 1.563rem;
-      color: rgba(138, 0, 53, 0.74); }
-    .main__moda .mujertexto:hover {
-      transition: all 2.5s;
-      transform: translatey(34.375rem);
-      filter: opacity(0%); }
-  .main__moda .mujerdos {
-    grid-area: siete;
-    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/modamujer.webp);
-    background-size: 46.875rem;
-    width: 31.25rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 100%;
-    border-radius: 1rem;
-    border: solid rgba(0, 0, 0, 0.452); }
-  .main__moda .mujertextodos {
-    grid-area: siete;
-    background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-    width: 31.25rem;
-    height: 31.25rem;
-    text-align: center;
-    border-radius: 1rem;
-    border: solid violet;
-    opacity: 100%; }
-    .main__moda .mujertextodos p {
-      font-size: 1.563rem;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      margin: 1.563rem;
-      color: rgba(115, 0, 138, 0.74); }
-    .main__moda .mujertextodos:hover {
-      transition: all 2.5s;
-      transform: translatey(34.375rem);
-      filter: opacity(0%); }
-  .main__moda .mujertres {
-    grid-area: ocho;
-    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/patines.jpg);
-    background-size: 46.875rem;
-    width: 31.25rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 100%;
-    border-radius: 1rem;
-    border: solid rgba(0, 0, 0, 0.452); }
-  .main__moda .mujertextotres {
-    grid-area: ocho;
-    background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-    width: 31.25rem;
-    height: 31.25rem;
-    text-align: center;
-    border-radius: 1rem;
-    border: solid violet;
-    opacity: 100%; }
-    .main__moda .mujertextotres p {
-      font-size: 1.563rem;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      margin: 1.563rem;
-      color: rgba(22, 22, 22, 0.842); }
-    .main__moda .mujertextotres:hover {
-      transition: all 2.5s;
-      transform: translatey(34.375rem);
-      filter: opacity(0%); }
+      font-family: "Ubuntu", sans-serif;
+      color: rgba(101, 224, 0, 0.479); }
+
+.hombre {
+  display: flex;
+  justify-self: center;
+  grid-area: dos;
+  background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/moda-hombre.jpg);
+  background-size: 35rem;
+  width: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 100%;
+  border-radius: 1rem;
+  border: solid rgba(0, 0, 0, 0.226); }
+
+.ropados {
+  grid-area: seis;
+  background-image: linear-gradient(to right, rgba(101, 198, 255, 0.219), rgba(8, 214, 35, 0.158));
+  width: 55rem;
+  height: 30rem;
+  text-align: center;
+  border-radius: 1rem;
+  border: solid violet;
+  opacity: 100%; }
+  .ropados p {
+    font-size: 1.563rem;
+    font-family: "Ubuntu", sans-serif;
+    margin: 1.563rem;
+    color: rgba(0, 150, 187, 0.767); }
+
+.hombredos {
+  display: flex;
+  justify-self: center;
+  grid-area: tres;
+  background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/look-retro.webp);
+  background-size: 35rem;
+  width: 35rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 100%;
+  border-radius: 1rem;
+  border: solid rgba(0, 0, 0, 0.452); }
+
+.hombretres {
+  display: flex;
+  justify-self: center;
+  grid-area: ocho;
+  background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/glam-punk.jpg);
+  background-size: 35rem;
+  width: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 100%;
+  border-radius: 1rem;
+  border: solid rgba(0, 0, 0, 0.452); }
+
+.ropatres {
+  grid-area: siete;
+  background-image: linear-gradient(to right, rgba(56, 0, 70, 0.329), rgba(255, 255, 255, 0.404));
+  width: 55rem;
+  height: 30rem;
+  text-align: center;
+  border-radius: 1rem;
+  border: solid rgba(13, 110, 0, 0.548);
+  opacity: 100%; }
+  .ropatres p {
+    font-size: 1.563rem;
+    font-family: "Ubuntu", sans-serif;
+    margin: 1.563rem;
+    color: rgba(255, 255, 255, 0.877); }
+
+.mujer {
+  display: flex;
+  justify-self: center;
+  grid-area: diez;
+  background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/ropamujer.jpg);
+  background-size: 35.625rem;
+  width: 31.25rem;
+  background-position: cover;
+  background-repeat: no-repeat;
+  opacity: 100%;
+  border-radius: 1rem;
+  border: solid rgba(0, 0, 0, 0.452); }
+
+.mujertexto {
+  grid-area: doce;
+  background-image: linear-gradient(to right, rgba(1, 65, 58, 0.233), rgba(44, 2, 34, 0));
+  width: 50rem;
+  height: 30rem;
+  text-align: center;
+  border-radius: 1rem;
+  border: solid violet;
+  opacity: 100%; }
+  .mujertexto p {
+    font-size: 1.563rem;
+    font-family: "Raleway", sans-serif;
+    margin: 1.563rem;
+    color: rgba(146, 175, 13, 0.678); }
+
+.mujerdos {
+  display: flex;
+  justify-self: center;
+  grid-area: trece;
+  background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/modamujer.webp);
+  background-size: 46.875rem;
+  width: 31.25rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 100%;
+  border-radius: 1rem;
+  border: solid rgba(0, 0, 0, 0.452); }
+
+.mujertextodos {
+  grid-area: catorce;
+  background-image: linear-gradient(to right, rgba(255, 0, 128, 0.11), rgba(255, 234, 250, 0));
+  width: 50rem;
+  height: 30rem;
+  text-align: center;
+  border-radius: 1rem;
+  border: solid rgba(112, 44, 4, 0.671);
+  opacity: 100%; }
+  .mujertextodos p {
+    font-size: 1.563rem;
+    font-family: "Raleway", sans-serif;
+    margin: 1.563rem;
+    color: rgba(3, 128, 185, 0.74); }
+
+.mujertres {
+  display: flex;
+  justify-self: center;
+  grid-area: quince;
+  background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041), rgba(255, 255, 0, 0.096)), url(../recursos/patines.jpg);
+  background-size: 46.875rem;
+  width: 31.25rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 100%;
+  border-radius: 1rem;
+  border: solid rgba(0, 0, 0, 0.452); }
+
+.mujertextotres {
+  grid-area: dieciseis;
+  background-image: linear-gradient(to right, rgba(185, 182, 0, 0.144), rgba(255, 234, 250, 0));
+  width: 50rem;
+  height: 30rem;
+  text-align: center;
+  border-radius: 1rem;
+  border: solid rgba(10, 0, 104, 0.753);
+  opacity: 100%; }
+  .mujertextotres p {
+    font-size: 1.563rem;
+    font-family: "Raleway", sans-serif;
+    margin: 1.563rem;
+    color: rgba(255, 255, 255, 0.842); }
 
 /* ---------------------------MUSICA-------------------------- */
 .musica {
@@ -772,35 +771,45 @@ h4 {
 /* ------------MODA------------- */
 @media (min-width: 320px) and (max-width: 540px) {
   .moda {
-    width: 99vw;
-    padding-bottom: 0.20rem;
+    width: 98vw;
+    padding-bottom: 0rem;
     background-position-y: 0rem;
-    background-position-x: 0rem;
-    background-size: center;
+    background-position-x: -10rem;
+    background-size: cover;
     background-attachment: scroll; }
   .main__moda {
-    grid-template-areas: " cuatro  " "uno" "dos" "tres" "cinco" "seis " "siete" "ocho" "nueve" "once "; }
+    grid-template-areas: " cuatro " "uno" "dos" "seis" "tres" "siete " "ocho" "cinco" "diez" "doce" "trece" "catorce" "quince" "dieciseis" "nueve" "once" "veinte"; }
     .main__moda .titulomoda {
-      font-size: 2.2rem; }
+      font-size: 2.5rem;
+      height: 10vh; }
     .main__moda .ropa {
-      width: 22.2rem;
-      height: 31.25rem; }
+      width: 15rem;
+      height: 35rem; }
+      .main__moda .ropa p {
+        font-size: 1rem; }
     .main__moda .hombre {
-      background-size: 34.375rem;
-      width: 22.2rem; }
+      background-size: 33rem;
+      width: 90vw;
+      height: 60vh;
+      border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .ropados {
-      width: 22.2rem;
-      height: 31.25rem; }
+      width: 15rem;
+      height: 35rem; }
       .main__moda .ropados p {
         font-size: 1rem; }
     .main__moda .hombredos {
-      width: 22.2rem; }
+      background-size: 33rem;
+      width: 90vw;
+      height: 60vh;
+      border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .hombretres {
-      background-size: 40.625rem;
-      width: 22.2rem; }
+      background-size: 33rem;
+      width: 90vw;
+      height: 60vh;
+      border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .ropatres {
-      width: 22.2rem;
-      height: 31.25rem; }
+      width: 15rem;
+      height: 35rem; }
       .main__moda .ropatres p {
         font-size: 1rem; }
     .main__moda .titulomodados {
@@ -808,22 +817,33 @@ h4 {
       border-radius: 1rem;
       font-size: 30px; }
     .main__moda .mujer {
-      background-size: 35.625rem;
-      width: 22.2rem; }
+      background-size: 33rem;
+      width: 90vw;
+      height: 60vh;
+      border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .mujertexto {
-      width: 22.2rem; }
+      width: 15rem;
+      height: 35rem; }
       .main__moda .mujertexto p {
         font-size: 1rem; }
     .main__moda .mujerdos {
-      width: 22.2rem; }
+      background-size: 33rem;
+      width: 90vw;
+      height: 60vh;
+      border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .mujertextodos {
-      width: 22.2rem; }
+      width: 15rem;
+      height: 35rem; }
       .main__moda .mujertextodos p {
         font-size: 1rem; }
     .main__moda .mujertres {
-      width: 22.2rem; }
+      background-size: 33rem;
+      width: 90vw;
+      height: 60vh;
+      border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .mujertextotres {
-      width: 22.2rem; }
+      width: 15rem;
+      height: 35rem; }
       .main__moda .mujertextotres p {
         font-size: 1rem; }
     .main__moda .titulomodatres {
@@ -836,65 +856,88 @@ h4 {
 
 @media (min-width: 541px) and (max-width: 720px) {
   .moda {
-    width: 100%;
-    padding-bottom: 1.25rem;
-    background-position-y: -1.375rem;
-    background-size: center;
+    width: 98vw;
+    padding-bottom: 0rem;
+    background-position-y: 0rem;
+    background-position-x: -10rem;
+    background-size: cover;
     background-attachment: scroll; }
-  .titulomoda {
-    width: 91vw;
-    border-radius: 1rem;
-    font-size: 35px; }
   .main__moda {
-    display: grid;
-    gap: 0.938rem;
-    grid-template-rows: 1fr;
-    grid-template-areas: "cuatro " "uno" "dos" "tres" "cinco" "seis" "siete" "ocho" "nueve " "once";
-    margin: 0.938rem; }
+    grid-template-areas: " cuatro " "uno" "dos" "seis" "tres" "siete " "ocho" "cinco" "diez" "doce" "trece" "catorce" "quince" "dieciseis" "nueve" "once" "veinte"; }
+    .main__moda .titulomoda {
+      font-size: 2.5rem;
+      height: 10vh; }
     .main__moda .ropa {
-      width: 41.25rem;
-      height: 31.25rem; }
+      width: 37rem;
+      height: 35rem; }
+      .main__moda .ropa p {
+        font-size: 1.5rem; }
     .main__moda .hombre {
-      background-size: 41rem;
-      width: 41.25rem; }
+      background-size: 50rem;
+      width: 90vw;
+      height: 60vh;
+      border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .ropados {
-      width: 41.25rem;
-      height: 31.25rem; }
+      width: 37rem;
+      height: 35rem; }
+      .main__moda .ropados p {
+        font-size: 1.5rem; }
     .main__moda .hombredos {
-      background-size: 41rem;
-      width: 41.25rem; }
+      background-size: 50rem;
+      width: 90vw;
+      height: 60vh;
+      border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .hombretres {
-      background-size: 41rem;
-      width: 41.25rem; }
+      background-size: 50rem;
+      width: 90vw;
+      height: 60vh;
+      border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .ropatres {
-      width: 41.25rem;
-      height: 31.25rem; }
+      width: 37rem;
+      height: 35rem; }
+      .main__moda .ropatres p {
+        font-size: 1.5rem; }
     .main__moda .titulomodados {
-      width: 91vw;
+      width: 90vw;
       border-radius: 1rem;
-      font-size: 35px; }
+      font-size: 30px; }
     .main__moda .mujer {
-      background-size: 41rem;
-      width: 41.25rem; }
+      background-size: 50rem;
+      width: 90vw;
+      height: 60vh;
+      border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .mujertexto {
-      width: 41.25rem;
-      height: 31.25rem; }
+      width: 37rem;
+      height: 35rem; }
+      .main__moda .mujertexto p {
+        font-size: 1.5rem; }
     .main__moda .mujerdos {
-      background-size: 41rem;
-      width: 41.25rem; }
+      background-size: 50rem;
+      width: 90vw;
+      height: 60vh;
+      border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .mujertextodos {
-      width: 41.25rem;
-      height: 31.25rem; }
+      width: 37rem;
+      height: 35rem; }
+      .main__moda .mujertextodos p {
+        font-size: 1.5rem; }
     .main__moda .mujertres {
-      background-size: 41rem;
-      width: 41.25rem; }
+      background-size: 50rem;
+      width: 90vw;
+      height: 60vh;
+      border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .mujertextotres {
-      width: 41.25rem;
-      height: 31.25rem; }
+      width: 37rem;
+      height: 35rem; }
+      .main__moda .mujertextotres p {
+        font-size: 1.5rem; }
     .main__moda .titulomodatres {
-      width: 91vw;
-      border-radius: 1rem;
-      font-size: 35px; } }
+      grid-area: nueve;
+      text-align: center;
+      font-size: 2.2rem;
+      width: 91vw; }
+    .main__moda .acordeonimg {
+      width: 15rem; } }
 
 /* -----------footer----------- */
 @media (min-width: 320px) and (max-width: 540px) {

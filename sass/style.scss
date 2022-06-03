@@ -355,71 +355,71 @@ h4{
 .main__moda{
     display: grid;
     gap: 0.938rem;
-    grid-template-areas:" cuatro cuatro cuatro "
-                        "uno dos tres"
-                        "cinco cinco cinco"
-                        "seis siete ocho"
-                        "nueve nueve nueve"
-                        "once once once";
+    grid-template-areas:" cuatro cuatro "
+                        "uno dos"
+                        "tres seis"
+                        "siete ocho"
+                        "cinco cinco"
+                        "diez doce"
+                        "trece catorce"
+                        "quince dieciseis"
+                        "nueve nueve"
+                        "once once"
+                        "veinte veinte";
     margin: 0.938rem;
     .ropa{
         grid-area: uno;
-        background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-        width: 31.25rem;
-        height: 31.25rem;
+        background-image: linear-gradient(to right, rgba(1, 148, 133, 0.13), rgba(194, 3, 149, 0.103));
+        width: 55rem;
+        height: 30rem;
         text-align: center;
         border-radius: $border-predeterminado;
-        border: solid violet;
+        border: solid rgba(104, 185, 168, 0.685);
         opacity: 100%;
         p{
             margin-top: 12.5rem;
             font-size: 1.563rem;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color: rgba(53, 0, 44, 0.863);
-    }
-    &:hover{
-        transition: all 2.5s;
-        transform: translateX(34.375rem);
-        filter: opacity(0%);
+            font-family: $font-cartas;
+            color: rgba(101, 224, 0, 0.479);
         }
     }
+}
     .hombre{
-        grid-area: uno;
+        display: flex;
+        justify-self: center;
+        grid-area: dos;
         background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041),rgba(255, 255, 0, 0.096)), url(../recursos/moda-hombre.jpg);
-        background-size: 34.375rem;
-        width: 31.25rem;
+        background-size: 35rem;
+        width: 30rem;
         background-position: center;
         background-repeat: no-repeat;
         opacity: 100%;
         border-radius: $border-predeterminado;
-        border: solid rgba(0, 0, 0, 0.452);
+        border: solid rgba(0, 0, 0, 0.226);
     }
     .ropados{
-        grid-area: dos;
-        background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-        width: 31.25rem;
-        height: 31.25rem;
+        grid-area: seis;
+        background-image: linear-gradient(to right, rgba(101, 198, 255, 0.219), rgba(8, 214, 35, 0.158));
+        width: 55rem;
+        height: 30rem;
         text-align: center;
         border-radius: $border-predeterminado;
         border: solid violet;
         opacity: 100%;
         p{
             font-size: 1.563rem;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $font-cartas;
             margin: 1.563rem;
-            color: rgba(49, 0, 0, 0.877);
-    }
-        &:hover{
-            transition: all 2.5s;
-            transform: translateX(34.375rem);
-            filter: opacity(0%);
+            color: rgba(0, 150, 187, 0.767);
         }
     }
     .hombredos{
-        grid-area: dos;
+        display: flex;
+        justify-self: center;
+        grid-area: tres;
         background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041),rgba(255, 255, 0, 0.096)), url(../recursos/look-retro.webp);
-        background-size: 31.25rem;
-        width: 31.25rem;
+        background-size: 35rem;
+        width: 35rem;
         background-position: center;
         background-repeat: no-repeat;
         opacity: 100%;
@@ -427,10 +427,12 @@ h4{
         border: solid rgba(0, 0, 0, 0.452);
     }
     .hombretres{
-        grid-area: tres;
+        display: flex;
+        justify-self: center;
+        grid-area: ocho;
         background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041),rgba(255, 255, 0, 0.096)), url(../recursos/glam-punk.jpg);
-        background-size: 40.625rem;
-        width: 31.25rem;
+        background-size: 35rem;
+        width: 30rem;
         background-position: center;
         background-repeat: no-repeat;
         opacity: 100%;
@@ -438,28 +440,25 @@ h4{
         border: solid rgba(0, 0, 0, 0.452);
     }
     .ropatres{
-        grid-area: tres;
-        background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-        width: 31.25rem;
-        height: 31.25rem;
+        grid-area: siete;
+        background-image: linear-gradient(to right, rgba(56, 0, 70, 0.329), rgba(255, 255, 255, 0.404));
+        width: 55rem;
+        height: 30rem;
         text-align: center;
         border-radius: $border-predeterminado;
-        border: solid violet;
+        border: solid rgba(13, 110, 0, 0.548);
         opacity: 100%;
         p{
             font-size: 1.563rem;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $font-cartas;
             margin: 1.563rem;
-            color: rgba(0, 1, 12, 0.932);
-    }
-        &:hover{
-            transition: all 2.5s;
-            transform: translateX(34.375rem);
-            filter: opacity(0%);
+            color: rgba(255, 255, 255, 0.877);
         }
     }
     .mujer{
-        grid-area: seis;
+        display: flex;
+        justify-self: center;
+        grid-area: diez;
         background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041),rgba(255, 255, 0, 0.096)), url(../recursos/ropamujer.jpg);
         background-size: 35.625rem;
         width: 31.25rem;
@@ -470,28 +469,25 @@ h4{
         border: solid rgba(0, 0, 0, 0.452);
     }
     .mujertexto{
-        grid-area: seis;
-        background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-        width: 31.25rem;
-        height: 31.25rem;
+        grid-area: doce;
+        background-image: linear-gradient(to right, rgba(1, 65, 58, 0.233), rgba(44, 2, 34, 0));
+        width: 50rem;
+        height: 30rem;
         text-align: center;
         border-radius: $border-predeterminado;
         border: solid violet;
         opacity: 100%;
         p{
             font-size: 1.563rem;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $font-cartasdos;
             margin: 1.563rem;
-            color: rgba(138, 0, 53, 0.74);
-    }
-        &:hover{
-            transition: all 2.5s;
-            transform: translatey(34.375rem);
-            filter: opacity(0%);
+            color: rgba(146, 175, 13, 0.678);
         }
     }
     .mujerdos{
-        grid-area: siete;
+        display: flex;
+        justify-self: center;
+        grid-area: trece;
         background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041),rgba(255, 255, 0, 0.096)), url(../recursos/modamujer.webp);
         background-size: 46.875rem;
         width: 31.25rem;
@@ -502,28 +498,25 @@ h4{
         border: solid rgba(0, 0, 0, 0.452);
     }
     .mujertextodos{
-        grid-area: siete;
-        background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-        width: 31.25rem;
-        height: 31.25rem;
+        grid-area: catorce;
+        background-image: linear-gradient(to right, rgba(255, 0, 128, 0.11), rgba(255, 234, 250, 0));
+        width: 50rem;
+        height: 30rem;
         text-align: center;
         border-radius: $border-predeterminado;
-        border: solid violet;
+        border: solid rgba(112, 44, 4, 0.671);
         opacity: 100%;
         p{
             font-size: 1.563rem;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $font-cartasdos;
             margin: 1.563rem;
-            color: rgba(115, 0, 138, 0.74);
-    }
-        &:hover{
-            transition: all 2.5s;
-            transform: translatey(34.375rem);
-            filter: opacity(0%);
+            color: rgba(3, 128, 185, 0.74);
         }
     }
     .mujertres{
-        grid-area: ocho;
+        display: flex;
+        justify-self: center;
+        grid-area: quince;
         background-image: linear-gradient(to right, rgba(0, 128, 0, 0.041),rgba(255, 255, 0, 0.096)), url(../recursos/patines.jpg);
         background-size: 46.875rem;
         width: 31.25rem;
@@ -534,27 +527,23 @@ h4{
         border: solid rgba(0, 0, 0, 0.452);
     }
     .mujertextotres{
-        grid-area: ocho;
-        background-image: linear-gradient(to right, rgba(212, 255, 251, 0.295), rgba(255, 234, 250, 0.233));
-        width: 31.25rem;
-        height: 31.25rem;
+        grid-area: dieciseis;
+        background-image: linear-gradient(to right, rgba(185, 182, 0, 0.144), rgba(255, 234, 250, 0));
+        width: 50rem;
+        height: 30rem;
         text-align: center;
         border-radius: $border-predeterminado;
-        border: solid violet;
+        border: solid rgba(10, 0, 104, 0.753);
         opacity: 100%;
         p{
             font-size: 1.563rem;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: $font-cartasdos;
             margin: 1.563rem;
-            color: rgba(22, 22, 22, 0.842);
-    }
-        &:hover{
-            transition: all 2.5s;
-            transform: translatey(34.375rem);
-            filter: opacity(0%);
+            color: rgba(255, 255, 255, 0.842);
         }
     }
-}
+
+
 
 /* ---------------------------MUSICA-------------------------- */
 .musica{
@@ -589,6 +578,7 @@ h4{
         opacity:100%;
     }
 }
+
 
 
 /* ------------------CONTACTO------------ */
@@ -823,56 +813,54 @@ h4{
 /* ------------MODA------------- */
 
 @media (min-width: 320px) and (max-width: 540px) {
+
     .moda{
-        width: 99vw;
-        padding-bottom: 0.20rem;
+        width: 98vw;
+        padding-bottom: 0rem;
         background-position-y: 0rem;
-        background-position-x: 0rem;
-        background-size:center;
+        background-position-x: -10rem;
+        background-size: cover;
         background-attachment: scroll;
     }
     .main__moda{
-        grid-template-areas:" cuatro  "
+        grid-template-areas:" cuatro "
                             "uno"
                             "dos"
+                            "seis"
                             "tres"
-                            "cinco"
-                            "seis "
-                            "siete"
+                            "siete "
                             "ocho"
+                            "cinco"
+                            "diez"
+                            "doce"
+                            "trece"
+                            "catorce"
+                            "quince"
+                            "dieciseis"
                             "nueve"
-                            "once ";
+                            "once"
+                            "veinte";
         .titulomoda{
-            font-size: 2.2rem;
+            font-size: 2.5rem;
+            height: 10vh;
         }
         .ropa{
-            width: 22.2rem;
-            height: 31.25rem;
+            @include moda-texto;
         }
         .hombre{
-            background-size: 34.375rem;
-            width: 22.2rem;
+            @include moda-imagen;
         }
         .ropados{
-            width: 22.2rem;
-            height: 31.25rem;
-            p{
-                font-size: 1rem;
-            }
+            @include moda-texto;
         }
         .hombredos{
-            width: 22.2rem;
+            @include moda-imagen;
         }
         .hombretres{
-            background-size: 40.625rem;
-            width: 22.2rem;
+            @include moda-imagen;
         }
         .ropatres{
-            width: 22.2rem;
-            height: 31.25rem;
-            p{
-                font-size: 1rem;
-            }
+            @include moda-texto;
         }
         .titulomodados{
             width: 90vw;
@@ -880,32 +868,22 @@ h4{
             font-size: 30px;
         }
         .mujer{
-            background-size: 35.625rem;
-            width: 22.2rem;
+            @include moda-imagen;
         }
         .mujertexto{
-            width: 22.2rem;
-            p{
-                font-size: 1rem;
-            }
+            @include moda-texto;
         }
         .mujerdos{
-            width: 22.2rem;
+            @include moda-imagen;
         }
         .mujertextodos{
-        width: 22.2rem;
-            p{
-                font-size: 1rem;
-            }
+            @include moda-texto;
         }
         .mujertres{
-        width: 22.2rem;
+            @include moda-imagen;
         }
         .mujertextotres{
-            width: 22.2rem;
-            p{
-                font-size: 1rem;
-            }
+            @include moda-texto;
         }
         .titulomodatres{
             grid-area: nueve;
@@ -920,89 +898,84 @@ h4{
 }
 @media (min-width: 541px) and (max-width: 720px){
     .moda{
-        width: 100%;
-        padding-bottom: 1.25rem;
-        background-position-y: -1.375rem;
-        background-size:center;
+        width: 98vw;
+        padding-bottom: 0rem;
+        background-position-y: 0rem;
+        background-position-x: -10rem;
+        background-size: cover;
         background-attachment: scroll;
     }
-    .titulomoda{
-        width: 91vw;
-        border-radius: $border-predeterminado;
-        font-size: 35px;
-    }
     .main__moda{
-        display: grid;
-        gap: 0.938rem;
-        grid-template-rows: 1fr ;
-        grid-template-areas:"cuatro "
+        grid-template-areas:" cuatro "
                             "uno"
                             "dos"
-                            "tres"
-                            "cinco"
                             "seis"
-                            "siete"
+                            "tres"
+                            "siete "
                             "ocho"
-                            "nueve "
-                            "once";
-        margin: 0.938rem;
+                            "cinco"
+                            "diez"
+                            "doce"
+                            "trece"
+                            "catorce"
+                            "quince"
+                            "dieciseis"
+                            "nueve"
+                            "once"
+                            "veinte";
+        .titulomoda{
+            font-size: 2.5rem;
+            height: 10vh;
+        }
         .ropa{
-            width: 41.25rem;
-            height: 31.25rem;
+            @include moda-textotab;
         }
         .hombre{
-            background-size: 41rem;
-            width: 41.25rem;
+            @include moda-imagentab;
         }
         .ropados{
-            width: 41.25rem;
-            height: 31.25rem;
+            @include moda-textotab;
         }
         .hombredos{
-            background-size: 41rem;
-            width: 41.25rem;
+            @include moda-imagentab;
         }
         .hombretres{
-            background-size: 41rem;
-            width: 41.25rem;
+            @include moda-imagentab;
         }
         .ropatres{
-            width: 41.25rem;
-            height: 31.25rem;
+            @include moda-textotab;
         }
         .titulomodados{
-            width: 91vw;
+            width: 90vw;
             border-radius: $border-predeterminado;
-            font-size: 35px;
+            font-size: 30px;
         }
         .mujer{
-            background-size: 41rem;
-            width: 41.25rem;
+            @include moda-imagentab;
         }
         .mujertexto{
-            width: 41.25rem;
-            height: 31.25rem;
+            @include moda-textotab;
         }
         .mujerdos{
-            background-size: 41rem;
-            width: 41.25rem;
+            @include moda-imagentab;
         }
         .mujertextodos{
-            width: 41.25rem;
-            height: 31.25rem;
+            @include moda-textotab;
         }
         .mujertres{
-            background-size: 41rem;
-            width: 41.25rem;
+            @include moda-imagentab;
         }
         .mujertextotres{
-            width: 41.25rem;
-            height: 31.25rem;
+            @include moda-textotab;
         }
         .titulomodatres{
+            grid-area: nueve;
+            text-align: center;
+            font-size: 2.2rem;
             width: 91vw;
-            border-radius: $border-predeterminado;
-            font-size: 35px;
+        }
+        .acordeonimg{
+            width: 15rem;
         }
     }
 }
