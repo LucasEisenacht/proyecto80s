@@ -215,7 +215,7 @@ ul {
         &:hover{
             transition: all 2.5s;
             transform: scale(1.02);
-            filter: opacity(100%);
+            filter: grayscale(0%);
         }
     }
 }
@@ -640,14 +640,29 @@ h4{
                             "mainindex "
                             "footerindex ";
     }
+    .carta__uno{
+        filter: $filtrogris;
+    }
+    .carta__dos{
+        filter: $filtrotransparente;
+    }
+    .carta__tres{
+        filter:$filtrogris;
+    }
+    .carta__cuatro{
+        filter: $filtrotransparente;
+    }
+    .carta__seis{
+        filter: $filtrotransparente;
+    }
+    .carta__siete{
+        filter: $filtrotransparente;
+    }
+
     .carta__cinco{
         margin-right: 5rem;
         background-position-y: -0.875rem;
-    }
-    .carta__ocho{
-        background-size: center;
-        background-position-y: 0rem;
-        background-repeat: no-repeat;
+        filter: $filtrogris;
     }
     .titulo{
         font-size: 1.5rem;
@@ -679,13 +694,8 @@ h4{
                 background-position-x: 0rem;
                 background-position-y: 0.1rem;
                 background-repeat: no-repeat;
-                filter: grayscale(100%);
+                filter: $filtrogris;
                 grid-area: ocho;
-                    &:hover{
-                        transition: all 2.5s;
-                        transform: scale(1.02);
-                        filter: opacity(100%);
-                }
             }
         }
     }
@@ -743,13 +753,29 @@ h4{
         background-position-x: 0rem;
         background-position-y: 0.1rem;
         background-repeat: no-repeat;
-        filter: grayscale(100%);
         grid-area: ocho;
-        &:hover{
-            transition: all 2.5s;
-            transform: scale(1.02);
-            filter: opacity(100%);
-            }
+        filter: $filtrogris;
+        }
+        .carta__uno{
+            filter: $filtrogris;
+        }
+        .carta__dos{
+            filter: $filtrotransparente;
+        }
+        .carta__tres{
+            filter:$filtrogris;
+        }
+        .carta__cuatro{
+            filter: $filtrotransparente;
+        }
+        .carta__seis{
+            filter: $filtrotransparente;
+        }
+        .carta__siete{
+            filter: $filtrotransparente;
+        }
+        .carta__cinco{
+            filter: $filtrogris;
         }
     }
     .titulo{

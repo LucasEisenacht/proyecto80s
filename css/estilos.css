@@ -276,7 +276,7 @@ ul {
     .carta__ocho:hover {
       transition: all 2.5s;
       transform: scale(1.02);
-      filter: opacity(100%); }
+      filter: grayscale(0%); }
 
 h1 {
   font-size: 5rem;
@@ -648,13 +648,22 @@ h4 {
     display: grid;
     grid-template-rows: 0.1fr 0.1fr auto;
     grid-template-areas: "index " "mainindex " "footerindex "; }
+  .carta__uno {
+    filter: grayscale(0%); }
+  .carta__dos {
+    filter: opacity(100%); }
+  .carta__tres {
+    filter: grayscale(0%); }
+  .carta__cuatro {
+    filter: opacity(100%); }
+  .carta__seis {
+    filter: opacity(100%); }
+  .carta__siete {
+    filter: opacity(100%); }
   .carta__cinco {
     margin-right: 5rem;
-    background-position-y: -0.875rem; }
-  .carta__ocho {
-    background-size: center;
-    background-position-y: 0rem;
-    background-repeat: no-repeat; }
+    background-position-y: -0.875rem;
+    filter: grayscale(0%); }
   .titulo {
     font-size: 1.5rem;
     width: 98vw; }
@@ -675,12 +684,8 @@ h4 {
         background-position-x: 0rem;
         background-position-y: 0.1rem;
         background-repeat: no-repeat;
-        filter: grayscale(100%);
+        filter: grayscale(0%);
         grid-area: ocho; }
-        .flex .carta__ocho:hover {
-          transition: all 2.5s;
-          transform: scale(1.02);
-          filter: opacity(100%); }
   .flexx {
     grid-template-areas: "uno" "dos" "tres" "cuatro"; }
     .flexx .walkman {
@@ -717,12 +722,22 @@ h4 {
       background-position-x: 0rem;
       background-position-y: 0.1rem;
       background-repeat: no-repeat;
-      filter: grayscale(100%);
-      grid-area: ocho; }
-      .flex .carta__ocho:hover {
-        transition: all 2.5s;
-        transform: scale(1.02);
-        filter: opacity(100%); }
+      grid-area: ocho;
+      filter: grayscale(0%); }
+    .flex .carta__uno {
+      filter: grayscale(0%); }
+    .flex .carta__dos {
+      filter: opacity(100%); }
+    .flex .carta__tres {
+      filter: grayscale(0%); }
+    .flex .carta__cuatro {
+      filter: opacity(100%); }
+    .flex .carta__seis {
+      filter: opacity(100%); }
+    .flex .carta__siete {
+      filter: opacity(100%); }
+    .flex .carta__cinco {
+      filter: grayscale(0%); }
   .titulo {
     text-align: center;
     font-size: 2.375rem; } }
