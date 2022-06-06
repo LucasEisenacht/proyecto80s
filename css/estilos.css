@@ -646,7 +646,7 @@ h4 {
     padding-bottom: 0rem; }
   .gridindex {
     display: grid;
-    grid-template-rows: 0.1fr 0.1fr 0.01fr;
+    grid-template-rows: 0.1fr 0.1fr auto;
     grid-template-areas: "index " "mainindex " "footerindex "; }
   .carta__cinco {
     margin-right: 5rem;
@@ -783,33 +783,36 @@ h4 {
       font-size: 2.5rem;
       height: 10vh; }
     .main__moda .ropa {
-      width: 23.6rem;
-      height: 25rem; }
+      width: 20rem;
+      height: 25rem;
+      justify-self: center; }
       .main__moda .ropa p {
         font-size: 1rem; }
     .main__moda .hombre {
-      background-size: 33rem;
-      width: 90vw;
-      height: 60vh;
+      background-size: 30rem;
+      width: 20rem;
+      height: 20rem;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .ropados {
-      width: 23.6rem;
-      height: 25rem; }
+      width: 20rem;
+      height: 25rem;
+      justify-self: center; }
       .main__moda .ropados p {
         font-size: 1rem; }
     .main__moda .hombredos {
-      background-size: 33rem;
-      width: 90vw;
-      height: 60vh;
+      background-size: 30rem;
+      width: 20rem;
+      height: 20rem;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .hombretres {
-      background-size: 33rem;
-      width: 90vw;
-      height: 60vh;
+      background-size: 30rem;
+      width: 20rem;
+      height: 20rem;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .ropatres {
-      width: 23.6rem;
-      height: 25rem; }
+      width: 20rem;
+      height: 25rem;
+      justify-self: center; }
       .main__moda .ropatres p {
         font-size: 1rem; }
     .main__moda .titulomodados {
@@ -817,33 +820,36 @@ h4 {
       border-radius: 1rem;
       font-size: 30px; }
     .main__moda .mujer {
-      background-size: 33rem;
-      width: 90vw;
-      height: 60vh;
+      background-size: 30rem;
+      width: 20rem;
+      height: 20rem;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .mujertexto {
-      width: 23.6rem;
-      height: 25rem; }
+      width: 20rem;
+      height: 25rem;
+      justify-self: center; }
       .main__moda .mujertexto p {
         font-size: 1rem; }
     .main__moda .mujerdos {
-      background-size: 33rem;
-      width: 90vw;
-      height: 60vh;
+      background-size: 30rem;
+      width: 20rem;
+      height: 20rem;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .mujertextodos {
-      width: 23.6rem;
-      height: 25rem; }
+      width: 20rem;
+      height: 25rem;
+      justify-self: center; }
       .main__moda .mujertextodos p {
         font-size: 1rem; }
     .main__moda .mujertres {
-      background-size: 33rem;
-      width: 90vw;
-      height: 60vh;
+      background-size: 30rem;
+      width: 20rem;
+      height: 20rem;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .mujertextotres {
-      width: 23.6rem;
-      height: 25rem; }
+      width: 20rem;
+      height: 25rem;
+      justify-self: center; }
       .main__moda .mujertextotres p {
         font-size: 1rem; }
     .main__moda .titulomodatres {
@@ -950,10 +956,10 @@ h4 {
   footer {
     flex-direction: column; }
   .logofooter img {
-    width: 1rem;
-    height: 1rem; }
+    width: 0.5rem;
+    height: 0.5rem; }
   .logofooter p {
-    font-size: 0.5rem; }
+    font-size: 0.4rem; }
   .musica {
     width: 99vw;
     padding-bottom: 2rem;

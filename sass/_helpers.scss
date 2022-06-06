@@ -16,17 +16,18 @@
     text-shadow: $text-shadow-titulo;
 }
 @mixin moda-texto{
-    width: 23.6rem;
+    width: 20rem;
     height: 25rem;
+    justify-self: center;
     p{
         font-size: 1rem;
     }
 }
 
 @mixin moda-imagen{
-    background-size: 33rem;
-    width: 90vw;
-    height: 60vh;
+    background-size: 30rem;
+    width: 20rem;
+    height: 20rem;
     border: solid rgba(179, 2, 170, 0.61);
 }
 

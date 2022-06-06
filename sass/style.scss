@@ -635,7 +635,7 @@ h4{
     }
     .gridindex{
         display: grid;
-        grid-template-rows: 0.1fr 0.1fr 0.01fr;
+        grid-template-rows: 0.1fr 0.1fr auto;
         grid-template-areas:"index "
                             "mainindex "
                             "footerindex ";
@@ -987,11 +987,11 @@ h4{
         flex-direction: column;
     }
     .logofooter img{
-        width: 1rem;
-        height: 1rem;
+        width: 0.5rem;
+        height: 0.5rem;
     }
     .logofooter p{
-        font-size: 0.5rem;
+        font-size: 0.4rem;
     }
     .musica{
         width: 99vw;
