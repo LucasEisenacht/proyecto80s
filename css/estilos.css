@@ -783,8 +783,8 @@ h4 {
       font-size: 2.5rem;
       height: 10vh; }
     .main__moda .ropa {
-      width: 15rem;
-      height: 35rem; }
+      width: 23.6rem;
+      height: 25rem; }
       .main__moda .ropa p {
         font-size: 1rem; }
     .main__moda .hombre {
@@ -793,8 +793,8 @@ h4 {
       height: 60vh;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .ropados {
-      width: 15rem;
-      height: 35rem; }
+      width: 23.6rem;
+      height: 25rem; }
       .main__moda .ropados p {
         font-size: 1rem; }
     .main__moda .hombredos {
@@ -808,8 +808,8 @@ h4 {
       height: 60vh;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .ropatres {
-      width: 15rem;
-      height: 35rem; }
+      width: 23.6rem;
+      height: 25rem; }
       .main__moda .ropatres p {
         font-size: 1rem; }
     .main__moda .titulomodados {
@@ -822,8 +822,8 @@ h4 {
       height: 60vh;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .mujertexto {
-      width: 15rem;
-      height: 35rem; }
+      width: 23.6rem;
+      height: 25rem; }
       .main__moda .mujertexto p {
         font-size: 1rem; }
     .main__moda .mujerdos {
@@ -832,8 +832,8 @@ h4 {
       height: 60vh;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .mujertextodos {
-      width: 15rem;
-      height: 35rem; }
+      width: 23.6rem;
+      height: 25rem; }
       .main__moda .mujertextodos p {
         font-size: 1rem; }
     .main__moda .mujertres {
@@ -842,8 +842,8 @@ h4 {
       height: 60vh;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .mujertextotres {
-      width: 15rem;
-      height: 35rem; }
+      width: 23.6rem;
+      height: 25rem; }
       .main__moda .mujertextotres p {
         font-size: 1rem; }
     .main__moda .titulomodatres {
@@ -868,8 +868,9 @@ h4 {
       font-size: 2.5rem;
       height: 10vh; }
     .main__moda .ropa {
-      width: 37rem;
-      height: 35rem; }
+      width: 41rem;
+      height: 40rem;
+      margin-left: 1rem; }
       .main__moda .ropa p {
         font-size: 1.5rem; }
     .main__moda .hombre {
@@ -878,8 +879,9 @@ h4 {
       height: 60vh;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .ropados {
-      width: 37rem;
-      height: 35rem; }
+      width: 41rem;
+      height: 40rem;
+      margin-left: 1rem; }
       .main__moda .ropados p {
         font-size: 1.5rem; }
     .main__moda .hombredos {
@@ -893,8 +895,9 @@ h4 {
       height: 60vh;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .ropatres {
-      width: 37rem;
-      height: 35rem; }
+      width: 41rem;
+      height: 40rem;
+      margin-left: 1rem; }
       .main__moda .ropatres p {
         font-size: 1.5rem; }
     .main__moda .titulomodados {
@@ -907,8 +910,9 @@ h4 {
       height: 60vh;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .mujertexto {
-      width: 37rem;
-      height: 35rem; }
+      width: 41rem;
+      height: 40rem;
+      margin-left: 1rem; }
       .main__moda .mujertexto p {
         font-size: 1.5rem; }
     .main__moda .mujerdos {
@@ -917,8 +921,9 @@ h4 {
       height: 60vh;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .mujertextodos {
-      width: 37rem;
-      height: 35rem; }
+      width: 41rem;
+      height: 40rem;
+      margin-left: 1rem; }
       .main__moda .mujertextodos p {
         font-size: 1.5rem; }
     .main__moda .mujertres {
@@ -927,8 +932,9 @@ h4 {
       height: 60vh;
       border: solid rgba(179, 2, 170, 0.61); }
     .main__moda .mujertextotres {
-      width: 37rem;
-      height: 35rem; }
+      width: 41rem;
+      height: 40rem;
+      margin-left: 1rem; }
       .main__moda .mujertextotres p {
         font-size: 1.5rem; }
     .main__moda .titulomodatres {
