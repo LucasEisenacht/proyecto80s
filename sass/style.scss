@@ -220,12 +220,6 @@ ul {
     }
 }
 
-h1{
-    font-size: 5rem;
-    font-style: italic;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Inconsolata', monospace;
-}
 h2{
     margin-bottom: 3.125rem;
     font-size: 1.875rem;
@@ -872,6 +866,10 @@ h4{
         }
         .ropa{
             @include moda-texto;
+            p{
+                margin-top: 2rem;
+                font-size: 1.5rem
+            }
         }
         .hombre{
             @include moda-imagen;
@@ -1032,6 +1030,14 @@ h4{
 
 /* -------------------CONTACTO---------------- */
 
+.acheuno{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #63002e;
+}
+
 
 @media (min-width: 320px) and (max-width: 540px) {
     .grid__contacto{
@@ -1076,4 +1082,58 @@ h4{
         width: 8rem;
         height: 18rem;
     }
+}
+
+/* --------------JUEGOS------------------- */
+.color1{
+    color: pink;
+}
+.color2{
+    color: blueviolet;
+}
+.color3{
+    color: blue
+}
+.color4{
+    color: aqua;
+}
+.color5{
+    color: greenyellow;
+}
+.color6{
+    color: orange;
+}
+.color7{
+    color: red;
+}
+.color8{
+    color: yellow;
+}   
+.color9{
+    color: rgb(255, 208, 0);
+}
+.color10{
+    color: rgb(255, 187, 0);
+}
+.color11{
+    color: rgb(255, 145, 0);
+}
+.color12{
+    color: rgb(255, 102, 0);
+}
+.color13{
+    color: red;
+}
+.color14{
+    color: white;
+    font-size: 2rem;
+}
+.color15{
+    color: rgb(39, 0, 0);
+}
+.color16{
+    color: rgb(7, 0, 34);
+}
+.color17{
+    color: rgb(46, 0, 36);
 }
