@@ -10,7 +10,10 @@ body{
     background-color: black;
 }
 /* ----------HEADER------- */
-ul {
+.iconologo{
+    width:3rem ;
+}
+/* ul {
     display: flex;
     list-style-type: none;
     flex-direction: column;
@@ -40,7 +43,7 @@ ul {
         font-weight: 500;
         text-shadow: 0px 0.438rem 0.313rem rgba(0, 0, 0, 0.671);
     }
-}
+} */
 .gridindex{
     display: grid;
     grid-template-areas:"index index index index"
@@ -590,13 +593,6 @@ h4{
                         "footer footer footer footer";
     .contacto{
         grid-area: contacto;
-        background-image: url(../recursos/contacto.jpg);
-        width: 100%;
-        padding-bottom: 6.25rem;
-        background-position-y: -22rem;
-        background-size:cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
     }
     .main__formulario{
         grid-area: main__formulario;
@@ -611,6 +607,15 @@ h4{
     }
     .footercontacto{
         grid-area: footer;
+    }
+    .navegacion{
+        background-image: url(../recursos/contacto.jpg);
+        width: 100%;
+        padding-bottom:40rem;
+        background-position-y: -20rem;
+        background-size:cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
 }
 .orden{
@@ -1052,13 +1057,12 @@ h4{
                             "main__formulario"
                             "footer ";
         .contacto{
-            display: flex;
-            flex-direction: row;
             width: 98vw;
-            padding-bottom: 2.75rem;
+            padding-bottom: 0rem;
             background-position-y: 0rem;
-            background-position-x: -9.5rem;
+            background-position-x: 0rem;
             background-attachment:scroll;
+            background-position: cover;
         }
         .goku{
             width: 2rem;
