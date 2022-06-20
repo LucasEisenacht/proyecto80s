@@ -397,6 +397,10 @@ h4 {
   gap: 0.938rem;
   grid-template-areas: " cuatro cuatro " "uno dos" "tres seis" "siete ocho" "cinco cinco" "diez doce" "trece catorce" "quince dieciseis" "nueve nueve" "once once" "veinte veinte";
   margin: 0.938rem; }
+  .main__moda h5 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: rgba(2, 192, 2, 0.747); }
   .main__moda .ropa {
     grid-area: uno;
     background-image: linear-gradient(to right, rgba(1, 148, 133, 0.13), rgba(194, 3, 149, 0.103));
@@ -1024,53 +1028,37 @@ h4 {
 
 /* --------------JUEGOS------------------- */
 .color1 {
-  color: pink; }
+  color: red; }
 
 .color2 {
-  color: blueviolet; }
-
-.color3 {
-  color: blue; }
+  background: linear-gradient(blue, violet, pink);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; }
 
 .color4 {
-  color: aqua; }
+  color: #500202; }
 
 .color5 {
   color: greenyellow; }
 
 .color6 {
-  color: orange; }
+  background: linear-gradient(#ff8800, #e73601, red);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; }
 
 .color7 {
   color: red; }
 
 .color8 {
-  color: yellow; }
+  background: linear-gradient(#0c0036, black, #420034);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; }
 
-.color9 {
-  color: #ffd000; }
+h3 {
+  text-shadow: 0.2rem 0.2rem 0.2rem rgba(255, 0, 157, 0.719); }
 
-.color10 {
-  color: #ffbb00; }
-
-.color11 {
-  color: #ff9100; }
-
-.color12 {
-  color: #ff6600; }
-
-.color13 {
-  color: red; }
-
-.color14 {
+.colortextocarrousel {
+  text-shadow: 0.2rem 0.2rem 0.2rem black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
-  font-size: 2rem; }
-
-.color15 {
-  color: #270000; }
-
-.color16 {
-  color: #070022; }
-
-.color17 {
-  color: #2e0024; }
+  font-size: 1rem; }
