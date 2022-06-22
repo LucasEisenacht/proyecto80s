@@ -129,18 +129,13 @@ body {
         text-shadow: 0px 0.438rem 0.313rem rgba(0, 0, 0, 0.671);
     }
 } */
-.gridindex {
-  display: grid;
-  grid-template-areas: "index index index index" "mainindex mainindex mainindex mainindex" "footerindex footerindex footerindex footerindex"; }
-
 .index {
   display: flex;
   flex-wrap: wrap;
-  grid-area: index;
   background-image: url(../recursos/ferrari.jpg);
-  width: 100%;
-  padding-bottom: 13.75rem;
-  background-position-y: -9.375rem;
+  width: 100vw;
+  padding-bottom: 35rem;
+  background-position-y: -15rem;
   background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -151,12 +146,12 @@ body {
 .mainindex {
   grid-area: mainindex; }
 
-.flex {
+.jueguitos {
   display: grid;
   gap: 3.125rem;
   margin: 1.563rem;
   grid-template-areas: "uno dos" "tres cuatro" "cinco seis" "siete ocho"; }
-  .flex p {
+  .jueguitos p {
     margin-bottom: 0.813rem;
     font-size: 1.125rem;
     font-family: 'Montserrat Alternates', sans-serif; }
@@ -306,19 +301,19 @@ h4 {
   -webkit-text-stroke: 0.001rem rgba(141, 1, 1, 0.514); }
 
 /*     ----------------------------------------------------------- */
-.flexx {
+.musiquita {
   display: grid;
   gap: 3.125rem;
   margin: 1.563rem;
   grid-template-areas: "uno dos tres" "cuatro cuatro cuatro"; }
-  .flexx .walkman {
+  .musiquita .walkman {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
     height: 31.25rem; }
-    .flexx .walkman__uno {
+    .musiquita .walkman__uno {
       width: 100%;
       border-radius: 1rem;
       background-image: url(../recursos/walkmanuno.jpg);
@@ -326,21 +321,21 @@ h4 {
       background-position: center;
       filter: grayscale(100%);
       grid-area: uno; }
-    .flexx .walkman__dos {
+    .musiquita .walkman__dos {
       width: 100%;
       border-radius: 1rem;
       background-image: url(../recursos/walkmandos.jpg);
       background-size: cover;
       background-position: center;
       grid-area: dos; }
-    .flexx .walkman__tres {
+    .musiquita .walkman__tres {
       width: 100%;
       border-radius: 1rem;
       background-image: url(../recursos/walkmantres.jpg);
       background-size: cover;
       background-position: center;
       grid-area: tres; }
-    .flexx .walkman__cuatro {
+    .musiquita .walkman__cuatro {
       width: 1fr;
       grid-area: cuatro;
       color: rgba(207, 69, 241, 0.514);
@@ -351,7 +346,7 @@ h4 {
       font-family: monospace;
       text-shadow: 0rem 0.438rem 0.313rem rgba(0, 0, 0, 0.527);
       font-weight: bold; }
-      .flexx .walkman__cuatro p {
+      .musiquita .walkman__cuatro p {
         align-self: flex-end; }
 
 .footerindex {
@@ -363,8 +358,8 @@ h4 {
   flex-wrap: wrap;
   background-image: url(../recursos/back-to-banner.jpg);
   width: 100%;
-  padding-bottom: 13.75rem;
-  background-position-y: -6.25rem;
+  padding-bottom: 40rem;
+  background-position-y: 0rem;
   background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -391,9 +386,9 @@ h4 {
   display: flex;
   background-image: url(../recursos/portadamoda.jpg);
   width: 100%;
-  padding-bottom: 16.25rem;
-  background-position-y: -4.375rem;
-  background-size: cover;
+  padding-bottom: 40rem;
+  background-position-y: 0rem;
+  background-size: 120rem;
   background-attachment: fixed;
   background-repeat: no-repeat;
   justify-content: space-between; }
@@ -579,9 +574,9 @@ h4 {
 .musica {
   display: flex;
   background-image: url(../recursos/portadamusica.jpg);
-  width: 100%;
-  padding-bottom: 13.75rem;
-  background-position-y: -9.375rem;
+  width: 100vw;
+  padding-bottom: 35rem;
+  background-position-y: -5rem;
   background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -590,7 +585,8 @@ h4 {
 
 .mainmusica p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+  color: #8d005eaf; }
   .mainmusica p:hover {
     transition: all 2.5s;
     transform: scale(1.02);
@@ -648,8 +644,8 @@ h4 {
     background-size: contain;
     background-position-x: 0rem;
     background-position-y: 6rem;
-    padding-bottom: 0rem; }
-  .gridindex {
+    padding-bottom: 15rem; }
+  .index {
     display: grid;
     grid-template-rows: 0.1fr 0.1fr auto;
     grid-template-areas: "index " "mainindex " "footerindex "; }
@@ -676,12 +672,12 @@ h4 {
     width: 2rem; }
   ul a {
     font-size: 1.2rem; }
-  .flex {
+  .jueguitos {
     width: 85vw;
     grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis" "siete" "ocho"; }
-    .flex .carta {
+    .jueguitos .carta {
       justify-content: center; }
-      .flex .carta__ocho {
+      .jueguitos .carta__ocho {
         width: 1fr;
         border-radius: 1rem;
         background-image: url(../recursos/out-run.jpg);
@@ -691,11 +687,11 @@ h4 {
         background-repeat: no-repeat;
         filter: grayscale(0%);
         grid-area: ocho; }
-  .flexx {
+  .musiquita {
     grid-template-areas: "uno" "dos" "tres" "cuatro"; }
-    .flexx .walkman {
+    .musiquita .walkman {
       width: 80vw; }
-      .flexx .walkman__cuatro {
+      .musiquita .walkman__cuatro {
         background-position: start;
         font-size: 1rem; } }
 
@@ -708,18 +704,18 @@ h4 {
     grid-template-areas: "index index " "mainindex mainindex " "footerindex footerindex "; }
   .index {
     grid-area: index;
-    width: 98vw;
-    padding-bottom: 3.75rem;
+    width: 99vw;
+    padding-bottom: 27rem;
     background-position-y: 0rem;
     background-size: contain;
     background-attachment: scroll;
     background-size: center; }
-  .flex {
+  .jueguitos {
     display: grid;
     gap: 3.125rem;
     margin: 1.563rem;
     grid-template-areas: "uno " "dos" "tres" "cuatro" "cinco" "seis" "siete" "ocho"; }
-    .flex .carta__ocho {
+    .jueguitos .carta__ocho {
       width: 1fr;
       border-radius: 1rem;
       background-image: url(../recursos/out-run.jpg);
@@ -729,19 +725,19 @@ h4 {
       background-repeat: no-repeat;
       grid-area: ocho;
       filter: grayscale(0%); }
-    .flex .carta__uno {
+    .jueguitos .carta__uno {
       filter: grayscale(0%); }
-    .flex .carta__dos {
+    .jueguitos .carta__dos {
       filter: opacity(100%); }
-    .flex .carta__tres {
+    .jueguitos .carta__tres {
       filter: grayscale(0%); }
-    .flex .carta__cuatro {
+    .jueguitos .carta__cuatro {
       filter: opacity(100%); }
-    .flex .carta__seis {
+    .jueguitos .carta__seis {
       filter: opacity(100%); }
-    .flex .carta__siete {
+    .jueguitos .carta__siete {
       filter: opacity(100%); }
-    .flex .carta__cinco {
+    .jueguitos .carta__cinco {
       filter: grayscale(0%); }
   .titulo {
     text-align: center;
@@ -751,10 +747,10 @@ h4 {
 @media (min-width: 320px) and (max-width: 540px) {
   .cine {
     width: 99vw;
-    background-size: 100%;
-    background-position-x: center;
+    background-size: 180vw;
+    background-position-x: -18rem;
     background-position-y: 5rem;
-    padding-bottom: 1.5rem; }
+    padding-bottom: 18rem; }
   .titulomodacine {
     font-size: 2rem; }
   .logopeliculas {
@@ -766,10 +762,11 @@ h4 {
 
 @media (min-width: 541px) and (max-width: 720px) {
   .cine {
-    width: 98vw;
-    padding-bottom: 3.75rem;
-    background-position-y: 1.25rem;
-    background-size: contain;
+    width: 99vw;
+    padding-bottom: 25rem;
+    background-position-y: 0rem;
+    background-position-x: -35rem;
+    background-size: 80rem;
     background-attachment: fixed;
     background-repeat: no-repeat;
     justify-content: space-between; }
@@ -791,10 +788,10 @@ h4 {
 /* ------------MODA------------- */
 @media (min-width: 320px) and (max-width: 540px) {
   .moda {
-    width: 98vw;
-    padding-bottom: 0rem;
+    width: 99.9vw;
+    padding-bottom: 32rem;
     background-position-y: 0rem;
-    background-position-x: -10rem;
+    background-position-x: -28rem;
     background-size: cover;
     background-attachment: scroll; }
   .main__moda {
@@ -885,11 +882,11 @@ h4 {
 
 @media (min-width: 541px) and (max-width: 720px) {
   .moda {
-    width: 98vw;
-    padding-bottom: 0rem;
+    width: 99.9vw;
+    padding-bottom: 35rem;
     background-position-y: 0rem;
-    background-position-x: -10rem;
-    background-size: cover;
+    background-position-x: -40rem;
+    background-size: 100rem;
     background-attachment: scroll; }
   .main__moda {
     grid-template-areas: " cuatro " "uno" "dos" "seis" "tres" "siete " "ocho" "cinco" "diez" "doce" "trece" "catorce" "quince" "dieciseis" "nueve" "once" "veinte"; }
@@ -974,6 +971,57 @@ h4 {
     .main__moda .acordeonimg {
       width: 15rem; } }
 
+/* -------------MUSICA------------- */
+@media (min-width: 320px) and (max-width: 540px) {
+  .musica {
+    width: 99vw;
+    padding-bottom: 15rem;
+    background-position-y: 0rem;
+    background-attachment: scroll;
+    background-size: cover; }
+  .mainmusica p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    color: rgba(238, 130, 238, 0.582); }
+    .mainmusica p:hover {
+      transition: all 2.5s;
+      transform: scale(1.02);
+      color: chartreuse; }
+  .img-fluid {
+    height: 500px;
+    margin: 2px;
+    border-radius: 15px;
+    opacity: 50%; }
+    .img-fluid:hover {
+      transition: all 2.5s;
+      transform: scale(1.01);
+      opacity: 100%; } }
+
+@media (min-width: 541px) and (max-width: 720px) {
+  .musica {
+    width: 99vw;
+    padding-bottom: 25rem;
+    background-position-y: 0rem;
+    background-attachment: scroll;
+    background-size: cover; }
+  .mainmusica p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    color: rgba(238, 130, 238, 0.582); }
+    .mainmusica p:hover {
+      transition: all 2.5s;
+      transform: scale(1.02);
+      color: chartreuse; }
+  .img-fluid {
+    height: 500px;
+    margin: 2px;
+    border-radius: 15px;
+    opacity: 50%; }
+    .img-fluid:hover {
+      transition: all 2.5s;
+      transform: scale(1.01);
+      opacity: 100%; } }
+
 /* -----------footer----------- */
 @media (min-width: 320px) and (max-width: 540px) {
   footer {
@@ -982,55 +1030,71 @@ h4 {
     width: 0.5rem;
     height: 0.5rem; }
   .logofooter p {
-    font-size: 0.4rem; }
-  .musica {
-    width: 99vw;
-    padding-bottom: 2rem;
-    background-position-y: 0rem;
-    background-attachment: scroll;
-    background-size: cover; } }
+    font-size: 0.4rem; } }
 
 /* -------------------CONTACTO---------------- */
 .acheuno {
   display: flex;
   justify-content: center;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #63002e; }
 
 @media (min-width: 320px) and (max-width: 540px) {
   .grid__contacto {
     display: grid;
-    grid-template-rows: 0.4fr 0.01fr 0.1fr;
+    grid-template-rows: 0.1fr 0.01fr 0.1fr;
     grid-template-areas: "contacto " "main__formulario" "footer "; }
     .grid__contacto .contacto {
-      width: 98vw;
-      padding-bottom: 0rem;
-      background-position-y: 0rem;
-      background-position-x: 0rem;
-      background-attachment: scroll;
-      background-position: cover; }
-    .grid__contacto .goku {
-      width: 2rem; }
-      .grid__contacto .goku img {
-        width: 2rem;
+      grid-area: contacto; }
+    .grid__contacto .main__formulario {
+      grid-area: main__formulario;
+      display: flex;
+      width: 100vw;
+      justify-content: center;
+      padding: 2rem; }
+      .grid__contacto .main__formulario .goku {
+        display: flex;
         height: 8rem; }
-    .grid__contacto .contactotitulo {
-      font-size: 1rem;
-      color: #f1328b; } }
+    .grid__contacto .footercontacto {
+      grid-area: footer; }
+    .grid__contacto .navegacion {
+      background-image: url(../recursos/contacto.jpg);
+      width: 100vw;
+      padding-bottom: 27rem;
+      background-position-y: -1rem;
+      background-position-x: -20rem;
+      background-size: 60rem;
+      background-attachment: fixed;
+      background-repeat: no-repeat; } }
 
 @media (min-width: 541px) and (max-width: 720px) {
-  .contacto {
-    display: flex;
-    flex-direction: row;
-    width: 99vw;
-    padding-bottom: 2.75rem;
-    background-position-y: 0rem;
-    background-position-x: 0.5rem;
-    background-attachment: scroll; }
-  .goku img {
-    width: 8rem;
-    height: 18rem; } }
+  .grid__contacto {
+    display: grid;
+    grid-template-rows: 0.1fr 0.01fr 0.1fr;
+    grid-template-areas: "contacto " "main__formulario" "footer "; }
+    .grid__contacto .contacto {
+      grid-area: contacto; }
+    .grid__contacto .main__formulario {
+      grid-area: main__formulario;
+      display: flex;
+      width: 100vw;
+      justify-content: center;
+      padding: 2rem; }
+      .grid__contacto .main__formulario .goku {
+        display: flex;
+        height: 8rem; }
+    .grid__contacto .footercontacto {
+      grid-area: footer; }
+    .grid__contacto .navegacion {
+      background-image: url(../recursos/contacto.jpg);
+      width: 100vw;
+      padding-bottom: 27rem;
+      background-position-y: -5rem;
+      background-position-x: -20rem;
+      background-size: 70rem;
+      background-attachment: fixed;
+      background-repeat: no-repeat; } }
 
 /* --------------JUEGOS------------------- */
 .color1 {
